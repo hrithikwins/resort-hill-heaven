@@ -10,7 +10,7 @@ export const Banner = () => (
                         <span className="icon-building-o" />
                     </a>
                     <h1 className="text-uppercase">Heaven Hill Resort</h1>
-                    <span className="sub-text mb-3 d-block"><em>#Refined By N </em></span>
+                    <span className="sub-text mb-3 d-block"><em>#Refined By Nature</em></span>
                 </div>
             </div>
         </div>
