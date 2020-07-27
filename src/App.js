@@ -10,6 +10,7 @@ import { FeaturesSection } from './views/section/features-section';
 import { PricingChartSection } from './views/section/pricing-chart-section';
 import { RoomsSection } from './views/section/rooms-section';
 import { Footer } from './views/footer/footer';
+import { PricingSection } from './views/section/pricing-section';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <FaqSection />
         <FeaturesSection />
         <PricingChartSection />
+        <PricingSection />
         <RoomsSection />
         <Footer />
       </div>
