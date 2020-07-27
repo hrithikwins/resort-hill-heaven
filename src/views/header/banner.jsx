@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../../App.css';
 
 export const Banner = () => (
     <div className="site-blocks-cover overlay" style={{ "background-image": "url(images/Free-Blue-Textured-Background-For-Download.jpg)" }} data-aos="fade" data-stellar-background-ratio="0.5" id="home-section">
@@ -10,7 +10,7 @@ export const Banner = () => (
                         <span className="icon-building-o" />
                     </a>
                     <h1 className="text-uppercase">Heaven Hill Resort</h1>
-                    <span className="sub-text mb-3 d-block"><em>#Refined By Nature </em></span>
+                    <span className="sub-text mb-3 d-block"><em>#Refined By  </em></span>
                 </div>
             </div>
         </div>
