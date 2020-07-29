@@ -12,7 +12,7 @@ export const PricingSection = () => (
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
+                <div className="col-lg-12 col-md-12 mb-12 mb-lg-0 pricing">
                     <div className="border p-5 text-center rounded">
                         <h3>Rooms Pricing</h3>
                         <h6>We offer Delux, Super Delux, Dormitory and Tree Houses </h6>
@@ -46,51 +46,6 @@ export const PricingSection = () => (
                     </div>
                         <p><a href="#home" className="btn btn-lg btn-primary rounded-0 btn-block">Calculate</a></p>
                         <label htmlFor="results">Enter required details and press Calculate for pricing</label>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div className="border p-5 text-center rounded">
-                        <h3>Group Picnics at Heaven Hill Resort</h3>
-                        <div className="price mb-3"><sup className="currency">$</sup><span className="number">72</span> <span className="per">/year</span></div>
-                        <p className="text-muted mb-4">* Billed annualy or $30 per month</p>
-                        <ul className="list-unstyled ul-check text-left success mb-5">
-                            <li>Max 10 users</li>
-                            <li>29 local security</li>
-                            <li>Desktop App</li>
-                            <li>Email Support</li>
-                            <li className="text-muted"><del>Phone Support 24/7</del></li>
-                        </ul>
-                        <p><a href="#home" className="btn btn-lg btn-primary rounded-0 btn-block">Buy Now</a></p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div className="border p-5 text-center rounded">
-                        <h3>Swimming at heaven Hill Resort</h3>
-                        <div className="price mb-3"><sup className="currency">$</sup><span className="number">130</span> <span className="per">/year</span></div>
-                        <p className="text-muted mb-4">* Billed annualy or $10 per month</p>
-                        <ul className="list-unstyled ul-check text-left success mb-5">
-                            <li>Unlimitted users</li>
-                            <li>29 local security</li>
-                            <li>Desktop App</li>
-                            <li>Email Support</li>
-                            <li>Phone Support 24/7</li>
-                        </ul>
-                        <p><a href="#home" className="btn btn-lg btn-primary rounded-0 btn-block">Buy Now</a></p>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
-                    <div className="border p-5 text-center rounded">
-                        <h3>Night Camping in Tent House</h3>
-                        <div className="price mb-3"><sup className="currency">$</sup><span className="number">130</span> <span className="per">/year</span></div>
-                        <p className="text-muted mb-4">* Billed annualy or $10 per month</p>
-                        <ul className="list-unstyled ul-check text-left success mb-5">
-                            <li>Unlimitted users</li>
-                            <li>29 local security</li>
-                            <li>Desktop App</li>
-                            <li>Email Support</li>
-                            <li>Phone Support 24/7</li>
-                        </ul>
-                        <p><a href="#home" className="btn btn-lg btn-primary rounded-0 btn-block">Buy Now</a></p>
                     </div>
                 </div>
             </div>
