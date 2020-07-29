@@ -2,6 +2,7 @@
   "name": "heavenhillresort1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://heavenhillagroresort.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/react-fontawesome": "^0.1.11",
