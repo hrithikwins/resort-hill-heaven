@@ -54,7 +54,7 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-measuring display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Clean Room Service</h5>
+                            <h5 className="mt-0">Secured Parking Space</h5>
                       
                     </div>
                     </div>

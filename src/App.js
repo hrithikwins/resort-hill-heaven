@@ -12,6 +12,7 @@ import { RoomsSection } from './views/section/rooms-section';
 import { Footer } from './views/footer/footer';
 import { PricingSection } from './views/section/pricing-section';
 import { SocialSection } from './views/section/social-section';
+import { GallerySection } from './views/section/gallery-section';
 
 function App() {
   return (
@@ -28,12 +29,13 @@ function App() {
         <Banner />
         <Features />
         <AboutSection />
-        <ContactSection />
-        <FaqSection />
         <FeaturesSection />
-        <PricingChartSection />
-        <PricingSection />
         <RoomsSection />
+        <PricingChartSection />
+        <FaqSection />
+        <GallerySection />
+        <PricingSection />
+        <ContactSection />
         <SocialSection />
         <Footer />
       </div>
