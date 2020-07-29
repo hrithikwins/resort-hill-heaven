@@ -10,7 +10,7 @@ export const AboutSection = () => (
                 <div className="col-lg-4 ml-auto">
                     <span className="sub-title">Learn To Know More</span>
                     <h3 className="mb-4">About Heaven Hill Resort</h3>
-                    <p className="mb-4">🏨Heaven Hill Resort is an Agrotourism based resort in Boisar/Palghar District.
+                    <p className="mb-4"><span role="img" aria-label="hotel">🏨</span>Heaven Hill Resort is an Agrotourism based resort in Boisar/Palghar District.
                   </p>
                     <ul className="list-unstyled ul-check text-left success mb-5">
                         <li>13 kms from Boisar Station</li>
