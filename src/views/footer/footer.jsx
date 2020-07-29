@@ -43,7 +43,7 @@ export const Footer = () => (
                                 <li className="mb-3">
                                     <a href="#home" className="d-flex">
                                         <figure className="image mr-4">
-                                            <img src="images/img_2.jpg" alt className="img-fluid" />
+                                            <img src="images/img_2.jpg" alt="news" className="img-fluid" />
                                         </figure>
                                         <div className="text">
                                             <span className="small text-uppercase date">Jan 16, 2018</span>
@@ -55,7 +55,7 @@ export const Footer = () => (
                                 <li className="mb-3">
                                     <a href="#home" className="d-flex">
                                         <figure className="image mr-4">
-                                            <img src="images/img_3.jpg" alt className="img-fluid" />
+                                            <img src="images/img_3.jpg" alt="news" className="img-fluid" />
                                         </figure>
                                         <div className="text">
                                             <span className="small text-uppercase date">Jan 16, 2018</span>
@@ -67,7 +67,7 @@ export const Footer = () => (
                                 <li className="mb-3">
                                     <a href="#home" className="d-flex">
                                         <figure className="image mr-4">
-                                            <img src="images/img_4.jpg" alt className="img-fluid" />
+                                            <img src="images/img_4.jpg"  alt="news" className="img-fluid" />
                                         </figure>
                                         <div className="text">
                                             <span className="small text-uppercase date">Jan 16, 2018</span>
