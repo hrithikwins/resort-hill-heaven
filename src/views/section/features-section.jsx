@@ -18,9 +18,8 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-interior-design display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Innovative Structure</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                      sollicitudin..
+                            <h5 className="mt-0">Octopus Rain Dance</h5>
+                      Heaven Hill Resort has Octopus Rain Dance.
                     </div>
                     </div>
                 </div>
@@ -28,9 +27,8 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-step-ladder display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Arcitectural Design</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                      sollicitudin..
+                            <h5 className="mt-0">Amazing Picnic Spot</h5>
+                      Heaven hill resort has awesome picnic spot
                     </div>
                     </div>
                 </div>
@@ -38,9 +36,8 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-turned-off display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Interior Design</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                      sollicitudin..
+                            <h5 className="mt-0">Clean Rooms</h5>
+                      
                     </div>
                     </div>
                 </div>
@@ -48,9 +45,8 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-window display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Modern Window Design</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                      sollicitudin..
+                            <h5 className="mt-0">Group Entries Discount</h5>
+                      
                     </div>
                     </div>
                 </div>
@@ -58,9 +54,8 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-measuring display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Experts Architect</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                      sollicitudin..
+                            <h5 className="mt-0">Clean Room Service</h5>
+                      
                     </div>
                     </div>
                 </div>
@@ -68,9 +63,8 @@ export const FeaturesSection = () => (
                     <div className="media custom-media">
                         <div className="mr-3 icon"><span className="flaticon-sit-down display-4" /></div>
                         <div className="media-body">
-                            <h5 className="mt-0">Sofa Design</h5>
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                      sollicitudin..
+                            <h5 className="mt-0">Veg and Non-Veg Food separately</h5>
+                      
                     </div>
                     </div>
                 </div>

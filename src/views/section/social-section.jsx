@@ -4,7 +4,7 @@ export const SocialSection = () => (
     <>
         <div>
             <div class="instaFollow">
-                <h2>Follow Heaven Hill Resort on Instagram</h2>
+                <h2>Follow Heaven Hill Resort for latest updates</h2>
                 <a href="https://www.instagram.com/heaven_hill_resort">
                     <img src="images/insta_snip.png" alt="instagram" />
                 </a>
