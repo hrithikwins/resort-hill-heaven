@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../styles/default.css';
 
 export const Footer = () => (
     <footer className="site-footer border-top">
