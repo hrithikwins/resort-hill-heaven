@@ -33,7 +33,11 @@ export const Navigation = () => (
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-2">
-                            <h1 className="my-0 site-logo"><a href="index.html">Heaven Hill Resort</a></h1>
+                            <h1 className="my-0 site-logo"><a href="index.html">
+                                <img alt="logo"/>
+                                
+                                
+                                </a></h1>
                         </div>
                         <div className="col-10">
                             <nav className="site-navigation text-right" role="navigation">
