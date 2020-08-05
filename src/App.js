@@ -13,6 +13,7 @@ import { Footer } from './views/footer/footer';
 import { PricingSection } from './views/section/pricing-section';
 import { SocialSection } from './views/section/social-section';
 import { GallerySection } from './views/section/gallery-section';
+import './App.css';
 
 function App() {
   return (
