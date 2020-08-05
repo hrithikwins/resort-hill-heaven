@@ -8,7 +8,10 @@ export const Footer = () => (
                     <div className="row mb-5">
                         <div className="col-12">
                             <h3 className="footer-heading mb-4">About Us</h3>
-                            <p>heaven hill resort is a resort in boisar</p>
+                            <p>We at Heaven Hill Resort aim at providing our guests the best experience
+                                of tourism and we believe to fill their life with various precious moments spent 
+                                at Heaven Hill Resort.
+                            </p>
                         </div>
                     </div>
                     <div className="row mb-5">
@@ -45,7 +48,7 @@ export const Footer = () => (
                                         </figure>
                                         <div className="text">
                                             <span className="small text-uppercase date">Jan 26, 2021</span>
-                                            <h3 className="heading font-weight-light">some latest news</h3>
+                                            <h3 className="heading font-weight-light">Republic Day offers at Heaven Hill Resort</h3>
                                         </div>
                                     </a>
                                 </li>
