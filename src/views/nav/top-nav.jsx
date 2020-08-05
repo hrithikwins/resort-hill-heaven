@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 
 export const TopNav = () => (
     <div className="site-mobile-menu site-navbar-target">

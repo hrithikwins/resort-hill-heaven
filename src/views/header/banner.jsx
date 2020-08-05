@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.css';
+// import '../../App.css';
 
 export const Banner = () => (
     <div className="site-blocks-cover overlay" style={{ "background-image": "url(images/Free-Blue-Textured-Background-For-Download.jpg)" }} data-aos="fade" data-stellar-background-ratio="0.5" id="home-section">
