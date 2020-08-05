@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../App.css';
 
 export const AboutSection = () => (
     <div className="site-section about-section" id="about-section">

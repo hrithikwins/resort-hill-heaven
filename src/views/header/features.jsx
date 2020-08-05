@@ -1,5 +1,6 @@
 
 import React from 'react';
+import '../../App.css';
 
 export const Features = () => (
     <div className="site-section  border-bottom">
