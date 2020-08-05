@@ -706,6 +706,7 @@ h6 {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
+    background-image: url('images/Free-Blue-Textured-Background-For-Download.jpg');
 }
 
 .site-blocks-cover.overlay {
@@ -988,7 +989,7 @@ h6 {
     font-size: 20px;
     width: 70px;
     height: 70px;
-    background: #fff;
+    /* background-image: url('images/cursor.png'); */
     display: block;
     border-radius: 50%;
     opacity: 1;
