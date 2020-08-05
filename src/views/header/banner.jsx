@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.css';
+// import '../../App.css';
 
 export const Banner = () => (
     <div className="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5" id="home-section">
