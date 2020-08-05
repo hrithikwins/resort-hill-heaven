@@ -310,8 +310,7 @@ h6 {
 }
 
 .site-navbar .site-logo a {
-    font-weight: 200;
-    color: #fff;
+    background-image: url('images/logo.jpg');
     font-size: 400%;
     font-weight: bold;
     text-transform: uppercase;
