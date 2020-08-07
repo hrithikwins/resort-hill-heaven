@@ -1,5 +1,7 @@
 import React from 'react';
 import logoImage from 'images/logo.jpg';
+import '../nav/styles/nav.css';
+
 
 export const Navigation = () => (
     <>
@@ -34,7 +36,7 @@ export const Navigation = () => (
                     <div className="row align-items-center">
                         <div className="col-2">
                             <h1 className="my-0 site-logo"><a href="index.html">
-                                <img src={logoImage} alt="logo"/>
+                                <img src={logoImage} className="site-logo-image" alt="logo"/>
                                 
                                 
                                 </a></h1>
