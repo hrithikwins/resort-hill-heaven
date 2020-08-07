@@ -1,6 +1,6 @@
 import React from 'react';
 import logoImage from 'images/logo.jpg';
-import '../nav/styles/nav.css';
+import '../nav/styles/nav.sass';
 
 
 export const Navigation = () => (
