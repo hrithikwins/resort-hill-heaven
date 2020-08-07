@@ -8,7 +8,7 @@ export const Banner = () => (
             <div className="row align-items-center text-center justify-content-center">
                 <div className="col-md-8">
                     <a data-fancybox data-ratio={2} href="#home" className="play-button d-block">
-                         <img src={logoImage} alt="logo" className="banner"/>
+                         <img src={logoImage} alt="logo" className="banner-img"/>
                     </a>
                     <h1 className="text-uppercase">Heaven Hill Resort</h1>
                     <span className="sub-text mb-3 d-block"><em>#Refined By Nature</em></span>
