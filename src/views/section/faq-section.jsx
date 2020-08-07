@@ -1,11 +1,12 @@
 import React from 'react';
+import gardenImage from 'images/introductiongallery/garden.jpg';
 
 export const FaqSection = () => (
     <div className="site-section" id="faq-section">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 mb-5 mb-lg-0">
-                    <img src="images/about_2.jpg" alt="resort home" className="img-fluid" />
+                    <img src={gardenImage} alt="resort home" className="img-fluid" />
                 </div>
                 <div className="col-lg-6 ml-auto pl-lg-5">
                     <span className="sub-title">Ask Us, We Are Happy To Answer</span>
