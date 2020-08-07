@@ -1,5 +1,6 @@
 import React from "react";
-// import '../../App.css';
+import logoImage from 'images/logo.jpg';
+import '../header/styles/banner.sass';
 
 export const Banner = () => (
     <div className="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5" id="home-section">
@@ -7,7 +8,7 @@ export const Banner = () => (
             <div className="row align-items-center text-center justify-content-center">
                 <div className="col-md-8">
                     <a data-fancybox data-ratio={2} href="#home" className="play-button d-block">
-                         logo
+                         <img src={logoImage} alt="logo" className="banner"/>
                     </a>
                     <h1 className="text-uppercase">Heaven Hill Resort</h1>
                     <span className="sub-text mb-3 d-block"><em>#Refined By Nature</em></span>
