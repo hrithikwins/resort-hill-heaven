@@ -1,16 +1,16 @@
 import React from 'react';
 export const PricingChartSection = () => (
     <>
-    <div className="site-section" id="pricing-chart-section">
-        <div className="container">
-            <div className="row">
-                <div className="col-12 text-center">
-                    <span className="sub-title">Pricing Chart</span>
-                    <h2 className="font-weight-bold text-black mb-5">More pricing Information</h2>
+        <div className="site-section" id="pricing-chart-section">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 text-center">
+                        <span className="sub-title">Pricing Chart</span>
+                        <h2 className="font-weight-bold text-black mb-5">More pricing Information</h2>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
         <section id="rates">
             <div class="roomrates">
                 <h2>Visitor stays at Heaven Hill Resort</h2>
@@ -25,35 +25,35 @@ export const PricingChartSection = () => (
                         <td>Delux</td>
                         <td>Double Bed</td>
                         <td>2 Members</td>
-                        <td>2200/-</td>
-                        <td>1900/-</td>
-                        <td>400/-</td>
+                        <td>2500/-</td>
+                        <td>2100/-</td>
+                        <td>500/-</td>
                         <td>4 Members</td>
                     </tr>
                     <tr>
                         <td>Super Delux</td>
                         <td>Double Bed</td>
                         <td>2 Members</td>
+                        <td>2700/-</td>
                         <td>2400/-</td>
-                        <td>2100/-</td>
-                        <td>400/-</td>
+                        <td>500/-</td>
                         <td>6 Members</td>
                     </tr>
                     <tr>
                         <td rowspan="2">Dormitory</td>
                         <td>Dormitory for 24 hrs</td>
                         <td>8 Members</td>
-                        <td>7200/-</td>
-                        <td>5600/-</td>
-                        <td>400/-</td>
+                        <td>8000/-</td>
+                        <td>6400/-</td>
+                        <td>500/-</td>
                         <td>10 Members</td>
                     </tr>
                     <tr>
                         <td>Dormitory for a day's picnic</td>
                         <td>8 Members</td>
+                        <td>4800/-</td>
                         <td>4000/-</td>
-                        <td>3200/-</td>
-                        <td>200/-</td>
+                        <td>300/-</td>
                         <td>10 Members</td>
                     </tr>
                     <tr>
@@ -77,10 +77,10 @@ export const PricingChartSection = () => (
                             Breakfast, Lunch, evening Snacks &amp; Swimming
                         </td>
                         <td>
-                            750/-
+                            850/-
                         </td>
                         <td>
-                            650/-
+                            750/-
                         </td>
                     </tr>
                 </table>
@@ -98,15 +98,9 @@ export const PricingChartSection = () => (
                         <th>
                             Adult Per Head
                         </th>
-                        <th>
-                            Child Below 12 years
-                        </th>
                         <tr>
                             <td>
-                                700
-                            </td>
-                            <td>
-                                150
+                                300
                             </td>
                         </tr>
                     </table>
