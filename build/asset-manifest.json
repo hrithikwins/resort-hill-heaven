@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.759fb912.chunk.css",
-    "main.js": "/static/js/main.fdd236b3.chunk.js",
-    "main.js.map": "/static/js/main.fdd236b3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3f30487e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3f30487e.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.40e402d5.chunk.js": "/static/js/2.40e402d5.chunk.js",
-    "static/js/2.40e402d5.chunk.js.map": "/static/js/2.40e402d5.chunk.js.map",
+    "main.css": "/static/css/main.fc58721a.chunk.css",
+    "main.js": "/static/js/main.da63b2e9.chunk.js",
+    "main.js.map": "/static/js/main.da63b2e9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.039619c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.039619c0.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.11e94333.chunk.js": "/static/js/2.11e94333.chunk.js",
+    "static/js/2.11e94333.chunk.js.map": "/static/js/2.11e94333.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.58180430f70b6c29fb3fef46c4a30375.js": "/precache-manifest.58180430f70b6c29fb3fef46c4a30375.js",
+    "precache-manifest.26b3e215c8b3ac81dc8a463115408a92.js": "/precache-manifest.26b3e215c8b3ac81dc8a463115408a92.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.759fb912.chunk.css.map": "/static/css/main.759fb912.chunk.css.map",
-    "static/js/2.40e402d5.chunk.js.LICENSE.txt": "/static/js/2.40e402d5.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/logo.c9eecf6e.jpg",
+    "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.fc58721a.chunk.css.map": "/static/css/main.fc58721a.chunk.css.map",
+    "static/js/2.11e94333.chunk.js.LICENSE.txt": "/static/js/2.11e94333.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Free-Blue-Textured-Background-For-Download.bee0bfda.jpg",
     "static/media/dininghall.png": "/static/media/dininghall.b7cd00af.png",
     "static/media/dormitory.jpg": "/static/media/dormitory.edaaa101.jpg",
     "static/media/dormitoryrooms.png": "/static/media/dormitoryrooms.0ddab8ff.png",
@@ -59,13 +59,14 @@
     "static/media/img7.jpg": "/static/media/img7.77b40362.jpg",
     "static/media/img8.jpg": "/static/media/img8.1f809095.jpg",
     "static/media/img9.jpg": "/static/media/img9.dc4694fd.jpg",
+    "static/media/logo.jpg": "/static/media/logo.c9eecf6e.jpg",
     "static/media/tree-house.jpg": "/static/media/tree-house.53edb903.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f30487e.js",
-    "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.40e402d5.chunk.js",
-    "static/css/main.759fb912.chunk.css",
-    "static/js/main.fdd236b3.chunk.js"
+    "static/js/runtime-main.039619c0.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.11e94333.chunk.js",
+    "static/css/main.fc58721a.chunk.css",
+    "static/js/main.da63b2e9.chunk.js"
   ]
 }
