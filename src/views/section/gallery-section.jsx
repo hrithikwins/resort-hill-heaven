@@ -1,5 +1,7 @@
 import 'views/section/styles/gallery.sass';
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import gallery1 from 'images/gallery/img1.jpg';
 import gallery2 from 'images/gallery/img2.jpg';
 import gallery3 from 'images/gallery/img3.jpg';
@@ -85,6 +87,6 @@ export const GallerySection = () => (
             <div className="horizontal"><img alt="gallery" src={gallery34} /></div>
             <div className="horizontal"><img alt="gallery" src={gallery35} /></div>
         </div>
-        <a href="gallery/index.html">View More Images</a>
+        <Link to="gallery/index.html">View More Images</Link>
     </section>
 );
