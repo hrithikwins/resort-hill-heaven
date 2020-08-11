@@ -14,31 +14,47 @@ import { PricingSection } from './views/section/pricing-section';
 import { SocialSection } from './views/section/social-section';
 import { GallerySection } from './views/section/gallery-section';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div id="overlayer" />
-      <div className="loader">
-        {/* <div className="spinner-border text-primary" role="status">
+      {/* <div id="overlayer" /> */}
+      {/* <div className="loader">
+        <div className="spinner-border text-primary" role="status">
           <span className="sr-only">Loading...</span>
-        </div> */}
-      </div>
+        </div>
+      </div> */}
       <div className="site-wrap">
-        <TopNav />
-        <Navigation />
-        <Banner />
-        <Features />
-        <AboutSection />
-        <FeaturesSection />
-        <RoomsSection />
-        <PricingChartSection />
-        <FaqSection />
-        <GallerySection />
-        <PricingSection />
-        <ContactSection />
-        <SocialSection />
-        <Footer />
+        <Router>
+          <Switch>
+            <Route path="/gallery">
+              <TopNav />
+              <Navigation />
+              <div class="blank-top" />
+              <GallerySection />
+              <Footer />
+            </Route>
+          </Switch>
+          <Switch>
+            <Route path="/">
+              <TopNav />
+              <Navigation />
+              <Banner />
+              <marquee><span aria-label="warning">⚠</span>Outside food not allowed</marquee>
+              <Features />
+              <AboutSection />
+              <FeaturesSection />
+              <RoomsSection />
+              <PricingChartSection />
+              <FaqSection />
+              <PricingSection />
+              <ContactSection />
+              <SocialSection />
+              <Footer />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </>
   );
