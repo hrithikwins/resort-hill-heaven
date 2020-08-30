@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dff46f7037c926193d4a35ca63adb363",
+    "revision": "5c8896e55841933efb9c90953d1a8213",
     "url": "/index.html"
   },
   {
-    "revision": "7a53676520e080084908",
-    "url": "/static/css/2.f3cffc9e.chunk.css"
+    "revision": "475b9ae89c592a5ef72b",
+    "url": "/static/css/2.39e6bd42.chunk.css"
   },
   {
-    "revision": "b297b473eb2a9a9e6999",
-    "url": "/static/css/main.679f41dc.chunk.css"
+    "revision": "7c0ab4de8db0c0103126",
+    "url": "/static/css/main.d0e5a37b.chunk.css"
   },
   {
-    "revision": "7a53676520e080084908",
-    "url": "/static/js/2.a3df1d7f.chunk.js"
+    "revision": "475b9ae89c592a5ef72b",
+    "url": "/static/js/2.ab7f4627.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.a3df1d7f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ab7f4627.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b297b473eb2a9a9e6999",
-    "url": "/static/js/main.5b9f2daf.chunk.js"
+    "revision": "7c0ab4de8db0c0103126",
+    "url": "/static/js/main.1b2f42fc.chunk.js"
   },
   {
     "revision": "41a31e5fe3bc7be8a548",
     "url": "/static/js/runtime-main.039619c0.js"
-  },
-  {
-    "revision": "d50efacab378e777ab6f0a3897cf5101",
-    "url": "/static/media/background-wooden.d50efaca.gif"
   },
   {
     "revision": "bc87df14c62673949698981d07fc4570",
@@ -58,14 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "035251e21a6583dbeb194c370eddf15e",
     "url": "/static/media/garden.035251e2.jpg"
-  },
-  {
-    "revision": "797b491b0cedce97dc4bb816b480b546",
-    "url": "/static/media/green_background.797b491b.png"
-  },
-  {
-    "revision": "085ebad9f5322e789ab4087ef7a3ec46",
-    "url": "/static/media/hero_bg_1.085ebad9.gif"
   },
   {
     "revision": "5e8654ebd92e4c8548fa56a03b44a805",
@@ -232,11 +220,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/rustic-background.5827c10a.jpg"
   },
   {
-    "revision": "53edb90373f855bbefccbcde1b88f369",
-    "url": "/static/media/tree-house.53edb903.jpg"
+    "revision": "454433a4be09d328c4251a48647398e3",
+    "url": "/static/media/sea-background.454433a4.gif"
   },
   {
-    "revision": "ce63eb38ad63d2ecaf8341dfe92f63b3",
-    "url": "/static/media/twisting-img.ce63eb38.gif"
+    "revision": "53edb90373f855bbefccbcde1b88f369",
+    "url": "/static/media/tree-house.53edb903.jpg"
   }
 ]);

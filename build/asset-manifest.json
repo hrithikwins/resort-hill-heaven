@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.679f41dc.chunk.css",
-    "main.js": "/static/js/main.5b9f2daf.chunk.js",
-    "main.js.map": "/static/js/main.5b9f2daf.chunk.js.map",
+    "main.css": "/static/css/main.d0e5a37b.chunk.css",
+    "main.js": "/static/js/main.1b2f42fc.chunk.js",
+    "main.js.map": "/static/js/main.1b2f42fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.039619c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.039619c0.js.map",
-    "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.a3df1d7f.chunk.js": "/static/js/2.a3df1d7f.chunk.js",
-    "static/js/2.a3df1d7f.chunk.js.map": "/static/js/2.a3df1d7f.chunk.js.map",
+    "static/css/2.39e6bd42.chunk.css": "/static/css/2.39e6bd42.chunk.css",
+    "static/js/2.ab7f4627.chunk.js": "/static/js/2.ab7f4627.chunk.js",
+    "static/js/2.ab7f4627.chunk.js.map": "/static/js/2.ab7f4627.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0882fb52a3924eaaadba81315e1ed2d7.js": "/precache-manifest.0882fb52a3924eaaadba81315e1ed2d7.js",
+    "precache-manifest.d891a5632fc43bd3320f65504dc6d6f8.js": "/precache-manifest.d891a5632fc43bd3320f65504dc6d6f8.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.679f41dc.chunk.css.map": "/static/css/main.679f41dc.chunk.css.map",
-    "static/js/2.a3df1d7f.chunk.js.LICENSE.txt": "/static/js/2.a3df1d7f.chunk.js.LICENSE.txt",
-    "static/media/rooms.sass": "/static/media/background-wooden.d50efaca.gif",
+    "static/css/2.39e6bd42.chunk.css.map": "/static/css/2.39e6bd42.chunk.css.map",
+    "static/css/main.d0e5a37b.chunk.css.map": "/static/css/main.d0e5a37b.chunk.css.map",
+    "static/js/2.ab7f4627.chunk.js.LICENSE.txt": "/static/js/2.ab7f4627.chunk.js.LICENSE.txt",
     "static/media/conference_room.jpg": "/static/media/conference_room.bc87df14.jpg",
     "static/media/dining_hall.jpg": "/static/media/dining_hall.b81d441c.jpg",
     "static/media/dormitory.jpg": "/static/media/dormitory.edaaa101.jpg",
@@ -22,8 +21,6 @@
     "static/media/fb_snip.png": "/static/media/fb_snip.f8d336a2.png",
     "static/media/french.jpg": "/static/media/french.33a0a7df.jpg",
     "static/media/garden.jpg": "/static/media/garden.035251e2.jpg",
-    "static/media/contact-section.sass": "/static/media/green_background.797b491b.png",
-    "static/media/App.css": "/static/media/hero_bg_1.085ebad9.gif",
     "static/media/hero_bg_1.jpeg": "/static/media/hero_bg_1.5e8654eb.jpeg",
     "static/media/img1.jpg": "/static/media/img1.18831736.jpg",
     "static/media/img10.jpg": "/static/media/img10.31955416.jpg",
@@ -64,15 +61,15 @@
     "static/media/img9.jpg": "/static/media/img9.dc4694fd.jpg",
     "static/media/insta_snip.png": "/static/media/insta_snip.d04a64d7.png",
     "static/media/logo.jpg": "/static/media/logo.c9eecf6e.jpg",
-    "static/media/about-section.sass": "/static/media/rustic-background.5827c10a.jpg",
-    "static/media/tree-house.jpg": "/static/media/tree-house.53edb903.jpg",
-    "static/media/rates.sass": "/static/media/twisting-img.ce63eb38.gif"
+    "static/media/rooms.sass": "/static/media/rustic-background.5827c10a.jpg",
+    "static/media/App.css": "/static/media/sea-background.454433a4.gif",
+    "static/media/tree-house.jpg": "/static/media/tree-house.53edb903.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.039619c0.js",
-    "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.a3df1d7f.chunk.js",
-    "static/css/main.679f41dc.chunk.css",
-    "static/js/main.5b9f2daf.chunk.js"
+    "static/css/2.39e6bd42.chunk.css",
+    "static/js/2.ab7f4627.chunk.js",
+    "static/css/main.d0e5a37b.chunk.css",
+    "static/js/main.1b2f42fc.chunk.js"
   ]
 }

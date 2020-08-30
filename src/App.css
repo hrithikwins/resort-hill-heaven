@@ -75,6 +75,9 @@ h6 {
 .text-orange{
     color: orange !important;
 }
+.text-orangered{
+    color: orangered !important;
+}
 
 .offcanvas-menu .site-wrap {
     height: 100%;
@@ -1260,14 +1263,6 @@ h6 {
     padding-left: 30px;
 }
 
-.accordion .accordion-item h2 a:before {
-    position: absolute;
-    font-family: "icomoon";
-    content: "\f196";
-    font-size: 20px;
-    left: 0;
-    top: .4em;
-}
 
 .accordion .accordion-item h2 a[aria-expanded="true"] {
     color: #ff5733;
