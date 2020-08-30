@@ -42,7 +42,7 @@ function App() {
               <TopNav />
               <Navigation />
               <Banner />
-              <marquee><span aria-label="warning">⚠</span>Important Text</marquee>
+              <marquee><span aria-label="warning">⚠</span>Due to COVID 19 safety measures, outside food is not allowed</marquee>
               <Features />
               <AboutSection />
               <FeaturesSection />

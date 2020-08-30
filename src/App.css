@@ -72,6 +72,10 @@ h6 {
     visibility: hidden;
 }
 
+.text-orange{
+    color: orange !important;
+}
+
 .offcanvas-menu .site-wrap {
     height: 100%;
     width: 100%;

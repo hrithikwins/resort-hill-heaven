@@ -11,7 +11,7 @@ export const Banner = () => (
                          <img src={logoImage} alt="logo" className="banner-img"/>
                     </a>
                     <h1 className="text-uppercase">Heaven Hill Resort</h1>
-                    <span className="sub-text mb-3 d-block"><em>#Refined By Nature</em></span>
+                    <span className="sub-text mb-3 d-block text-orange"><em>#Refined By Nature</em></span>
                 </div>
             </div>
         </div>

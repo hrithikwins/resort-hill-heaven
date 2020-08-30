@@ -8,7 +8,7 @@ export const Features = () => (
             <div className="row">
                 <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
                     <div className="media custom-media">
-                        <div className="mr-3 icon"><span className="flaticon-sit-down display-4 color-primary" ><FaHotel /></span></div>
+                        <div className="mr-3 icon"><span className="flaticon-sit-down display-4 col-primary" ><FaHotel /></span></div>
                         <div className="media-body">
                             <h5 className="mt-0">Comfortable Rooms</h5>
                             <h6>Rooms with French and European concept to experience luxury at its best.</h6>
