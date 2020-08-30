@@ -1,6 +1,5 @@
 import React from 'react';
 import gardenImage from 'images/introductiongallery/garden.jpg';
-import {Link} from 'react-router-dom';
 
 export const FaqSection = () => (
     <div className="site-section" id="faq-section">
@@ -15,21 +14,21 @@ export const FaqSection = () => (
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item">
                             <h2 className="mb-0 rounded mb-2">
-                                <Link to="#home" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Do we get trekking packages in your resort?</Link>
+                                <a href="#home" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Do we get trekking packages in your resort?</a>
                             </h2>
                             <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div className="accordion-body">
                                     <p>Yes, we do have trekking packages, you can gain more insights and information
-                            on our <Link to="trekking">Trekking info page</Link></p>
+                            on our <a href="trekking">Trekking info page</a></p>
                                 </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="mb-0 rounded mb-2">
-                                <Link to="#home" className="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a className="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     When we choose swimming, what all other services are included for us?
-                        </Link>
+                        </a>
                             </h2>
                             <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div className="accordion-body">
@@ -37,15 +36,15 @@ export const FaqSection = () => (
                                     Swimming in the
                                     pools, also you get sound system to enjoy DJ music at no additional costs
                                     for group visits. For more information,
-                            <Link to="swimming">visit swimming page</Link>..</p>
+                            <a href="swimming">visit swimming page</a>..</p>
                                 </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="mb-0 rounded mb-2">
-                                <Link to="#home" className="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <a className="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     Which is the perfect season for bird watching at Heaven Hill Resort?
-                        </Link>
+                        </a>
                             </h2>
                             <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div className="accordion-body">
@@ -62,9 +61,9 @@ export const FaqSection = () => (
                         </div>
                         <div className="accordion-item">
                             <h2 className="mb-0 rounded mb-2">
-                                <Link to="#home" className="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <a className="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     Are photoshoots allowed in Heaven Hill Resort?
-                        </Link>
+                        </a>
                             </h2>
                             <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div className="accordion-body">
@@ -73,7 +72,7 @@ export const FaqSection = () => (
                                         photoshoots to all group of
                                         people, be it youngsters, married couples or pre-wed couples coming for a
                                         photoshoot, We also provide
-                            professional photographers for your ease. You can visit our <Link to="photography">Photography Page </Link> for
+                            professional photographers for your ease. You can visit our <a href="photography">Photography Page </a> for
                             additional information.
                           </p>
                                 </div>
@@ -81,15 +80,15 @@ export const FaqSection = () => (
                         </div>
                         <div className="accordion-item">
                             <h2 className="mb-0 rounded mb-2">
-                                <Link to="#home" className="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <a className="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     Can we have a day trekking, Night Campfires and Dormitory room together?
-                        </Link>
+                        </a>
                             </h2>
                             <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                 <div className="accordion-body">
                                     <p>We have special whole day camping packages whose more information can be
-                            fetched at <Link to="one-day-packages">Heaven Hill Special camping
-                              Packages</Link>
+                            fetched at <a href="one-day-packages">Heaven Hill Special camping
+                              Packages</a>
                                     </p>
                                 </div>
                             </div>

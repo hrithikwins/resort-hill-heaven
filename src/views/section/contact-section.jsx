@@ -1,4 +1,5 @@
 import React from 'react';
+import "./styles/contact-section.sass";
 
 export const ContactSection = () => (
     <>

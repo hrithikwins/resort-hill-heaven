@@ -1,13 +1,15 @@
 import React from 'react';
-
+import{ Select } from '@material-ui/core';
+import "./styles/pricing-section.sass";
 
 export const PricingSection = () => (
+    
     <div className="site-section" id="pricing-section">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-md-7 text-center">
                     <span className="sub-title">Price Calculator</span>
-                    <h2 className="font-weight-bold text-black">Variety of services</h2>
+                    <h2 className="font-weight-bold">Variety of services</h2>
                     <p className="mb-5">Your happiness and comfort need not seek money.</p>
                 </div>
             </div>
@@ -16,18 +18,21 @@ export const PricingSection = () => (
                     <div className="border p-5 text-center rounded">
                         <h3>Rooms Pricing</h3>
                         <h6>We offer Delux, Super Delux, Dormitory and Tree Houses </h6>
+                        <br/>
+                        <br/>
                         <div className="price mb-3">
                             <label htmlFor="roomType">Room Type</label>
-                            <select name="roomType" value="Select Room">
+                            <Select name="roomType" value="Select Room">
                                 <option value="Select Room">Select Room</option>
                                 <option value="Delux">Delux</option>
                                 <option value="Super Delux">Super Delux</option>
                                 <option value="Dormitory">Dormitory</option>
                                 <option value="Tree House">Tree House</option>
-                            </select>
+                            </Select>
                         </div>
+                        <br/>
                         <label htmlFor="memberCount">Number of Members</label>
-                        <select name="memberCount" value={0}>
+                        <Select name="memberCount" value={0}>
                             <option value={0}>0</option>
                             <option value={1}>1</option>
                             <option value={2}>2</option>
@@ -39,12 +44,13 @@ export const PricingSection = () => (
                             <option value={8}>8</option>
                             <option value={9}>9</option>
                             <option value={10}>10</option>
-                        </select>
+                        </Select>
+                        <br/>
                         <div>
                             <input type="radio" name="selection" defaultValue="One" />A/C &nbsp;
                       <input type="radio" name="selection" defaultValue="Two" />Non- A/C
                     </div>
-                        <p><a href="#home" className="btn btn-lg btn-primary rounded-0 btn-block">Calculate</a></p>
+                        <p><a href="#home" className="btn btn-lg btn-primary rounded-0 btn-block">CALCULATE TARRIF</a></p>
                         <label htmlFor="results">Enter required details and press Calculate for pricing</label>
                     </div>
                 </div>

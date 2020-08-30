@@ -48,44 +48,44 @@ export const GallerySection = () => (
             <h2 className="font-weight-bold text-black">Featured Clicks</h2>
             <p className="mb-5">Collection of some best of the images of Heaven Hill Resort received from visitors.</p>
         </div>
-        <div className="container">
-            <div><img alt="gallery1" src={gallery1} /></div>
-            <div className="vertical"><img alt="gallery" src={gallery2} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery3} /></div>
-            <div><img alt="gallery" src={gallery4} /></div>
-            <div><img alt="gallery" src={gallery5} /></div>
-            <div className="big"><img alt="gallery" src={gallery6} /></div>
-            <div><img alt="gallery" src={gallery7} /></div>
-            <div className="vertical"><img alt="gallery" src={gallery8} /></div>
-            <div><img alt="gallery" src={gallery9} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery10} /></div>
-            <div><img alt="gallery" src={gallery11} /></div>
-            <div className="big"><img alt="gallery" src={gallery12} /></div>
-            <div><img alt="gallery" src={gallery13} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery14} /></div>
-            <div><img alt="gallery" src={gallery15} /></div>
-            <div className="big"><img alt="gallery" src={gallery16} /></div>
-            <div><img alt="gallery" src={gallery17} /></div>
-            <div className="vertical"><img alt="gallery" src={gallery18} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery19} /></div>
-            <div><img alt="gallery" src={gallery36} /></div>
-            <div className="big"><img alt="gallery" src={gallery20} /></div>
-            <div><img alt="gallery" src={gallery21} /></div>
-            <div className="vertical"><img alt="gallery" src={gallery22} /></div>
-            <div><img alt="gallery" src={gallery23} /></div>
-            <div className="big"><img alt="gallery" src={gallery24} /></div>
-            <div><img alt="gallery" src={gallery25} /></div>
-            <div className="vertical"><img alt="gallery" src={gallery26} /></div>
-            <div className="vertical"><img alt="gallery" src={gallery27} /></div>
-            <div><img alt="gallery" src={gallery28} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery37} /></div>
-            <div><img alt="gallery" src={gallery29} /></div>
-            <div className="big"><img alt="gallery" src={gallery30} /></div>
-            <div><img alt="gallery" src={gallery31} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery32} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery33} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery34} /></div>
-            <div className="horizontal"><img alt="gallery" src={gallery35} /></div>
+        <div className="container row">
+            <div className="col-md-4 col-sm-12"><img alt="gallery1" src={gallery1} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery2} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery3} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery4} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery5} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery6} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery7} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery8} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery9} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery10} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery11} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery12} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery13} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery14} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery15} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery16} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery17} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery18} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery19} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery36} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery20} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery21} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery22} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery23} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery24} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery25} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery26} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery27} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery28} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery37} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery29} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery30} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery31} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery32} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery33} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery34} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery35} /></div>
         </div>
         <Link to="gallery/index.html">View More Images</Link>
     </section>

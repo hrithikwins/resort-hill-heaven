@@ -15,6 +15,7 @@ import { SocialSection } from './views/section/social-section';
 import { GallerySection } from './views/section/gallery-section';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Guidelines } from 'views/section/guidelines-section';
 
 function App() {
   return (
@@ -41,16 +42,17 @@ function App() {
               <TopNav />
               <Navigation />
               <Banner />
-              <marquee><span aria-label="warning">⚠</span>Outside food not allowed</marquee>
+              <marquee><span aria-label="warning">⚠</span>Important Text</marquee>
               <Features />
               <AboutSection />
               <FeaturesSection />
               <RoomsSection />
-              <PricingChartSection />
               <FaqSection />
+              <PricingChartSection />
               <PricingSection />
               <ContactSection />
-              <SocialSection />
+              {/* <SocialSection /> */}
+              <Guidelines/>
               <Footer />
             </Route>
           </Switch>
