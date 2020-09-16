@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navigation } from './views/nav/navigation';
 import { TopNav } from './views/nav/top-nav';
 import { Banner } from './views/header/banner';
@@ -16,8 +16,10 @@ import { GallerySection } from './views/section/gallery-section';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Guidelines } from 'views/section/guidelines-section';
+import {HamburgerMenu} from 'react-hamburger-menu';
 
 function App() {
+  const [open,setOpen] = useState(false);
   return (
     <>
       {/* <div id="overlayer" /> */}
@@ -26,6 +28,17 @@ function App() {
           <span className="sr-only">Loading...</span>
         </div>
       </div> */}
+      {/* <HamburgerMenu
+        isOpen={open}
+        menuClicked={setOpen(true)}
+        width={18}
+        height={15}
+        strokeWidth={1}
+        rotate={0}
+        color='black'
+        borderRadius={0}
+        animationDuration={0.5}
+      /> */}
       <div className="site-wrap">
         <Router>
           <Switch>
@@ -63,3 +76,6 @@ function App() {
 }
 
 export default App;
+
+
+

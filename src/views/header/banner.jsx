@@ -10,7 +10,7 @@ export const Banner = () => (
                     <a data-fancybox data-ratio={2} href="#home" className="play-button d-block">
                          <img src={logoImage} alt="logo" className="banner-img"/>
                     </a>
-                    <h1 className="text-uppercase">Heaven Hill Resort</h1>
+                    <h1 className="text-uppercase bubblegum-font">Heaven Hill Resort</h1>
                     <span className="sub-text mb-3 d-block text-orange"><em>#Refined By Nature</em></span>
                 </div>
             </div>
