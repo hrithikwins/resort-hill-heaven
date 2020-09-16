@@ -1,0 +1,320 @@
+/* footer data */
+@media screen and (max-width: 550px) {
+    .footerData {
+        margin: 0;
+        padding: 0;
+        /*     Change color after adding insta pics   */
+        background-color: #000000;
+        font-size: 60%;
+    }
+    .footerFlex {
+        width: 100%;
+        display: flex;
+    }
+    .extraLinks,
+    .ourServices {
+        display: none !important;
+    }
+    .socialIcons {
+        background-color: #1e0b11;
+    }
+    .heavenHillFooter,
+    .extraLinks,
+    .ourServices,
+    .socialMedia {
+        display: block;
+        width: 46%;
+        margin: 1%;
+        padding: 20px 6px;
+        font-size: 90%;
+    }
+    .heavenHillFooter aside,
+    .extraLinks aside,
+    .ourServices aside,
+    .socialMedia aside {
+        display: flex;
+        flex-direction: column;
+    }
+    .heavenHillFooter aside h3,
+    .extraLinks aside h3,
+    .ourServices aside h3,
+    .socialMedia aside h3 {
+        font-size: 150%;
+        color: whitesmoke;
+    }
+    .extraLinks aside a,
+    .ourServices aside a {
+        display: block;
+        text-decoration: none;
+        padding: 6px 2px;
+        margin: 2px 6px;
+        color: #ccc;
+    }
+    .heavenHillFooter aside img {
+        border-radius: 50%;
+    }
+    .extraLinks a:hover,
+    .ourServices a:hover {
+        color: red;
+        text-shadow: 1.5px 1.5px white;
+    }
+    footer ul li {
+        list-style-type: none;
+    }
+    .bottomInfo {
+        background-color: #31121b;
+        color: white;
+        font-size: 150%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .socialIcons {
+        display: flex;
+        justify-content: center;
+    }
+    .socialIcons div {
+        margin: 20px 8px 10px 8px;
+    }
+    .socialIcons a {
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: double;
+        border-radius: 50%;
+        padding: 4px;
+        height: 50px;
+        width: 50px;
+    }
+    .socialIcons div a:hover {
+        background-color: black;
+        text-shadow: 2px 2px 1px white;
+    }
+    .bottomInfo sup {
+        font-size: 50%;
+    }
+    .insta a {
+        color: red;
+    }
+    .whatsapp a {
+        color: lime;
+    }
+    .fb a {
+        color: #7083e8;
+    }
+    .twitter a {
+        color: #1ea5c4;
+    }
+    .siteData {
+        /*display: flex*/
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .siteData .client {
+        float: left;
+        /*display: flex*/
+        justify-content: left;
+        align-content: center;
+        padding-bottom: 30px;
+        width: 50%;
+        font-size: 40%;
+    }
+    .siteData .team {
+        float: right;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: right;
+        width: 50%;
+        font-size: 50%;
+    }
+    .visitorcount {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+    }
+    .visitorcount h4 {
+        z-index: 0;
+    }
+    .visitorcount p .hitCounter {
+        z-index: -1;
+    }
+}
+
+
+/* Media desktop */
+@media screen and (min-width: 550px) {
+
+
+   /* footer data */
+
+    .footerData {
+        margin: 0;
+        padding: 0;
+        background-color: #4f1022;
+        font-size: 80%;
+        width: 100vw;
+    }
+
+    .footerFlex {
+        width: 100%;
+        display: flex;
+    }
+
+    .heavenHillFooter,
+    .extraLinks,
+    .ourServices,
+    .socialMedia {
+        display: block;
+        width: 23%;
+        margin: 1%;
+        padding: 20px 6px;
+        font-size: 120%;
+    }
+
+    .heavenHillFooter aside,
+    .extraLinks aside,
+    .ourServices aside,
+    .socialMedia aside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heavenHillFooter aside h3,
+    .extraLinks aside h3,
+    .ourServices aside h3,
+    .socialMedia aside h3 {
+        font-size: 150%;
+        color: whitesmoke;
+    }
+
+    .extraLinks aside a,
+    .ourServices aside a {
+        display: block;
+        text-decoration: none;
+        padding: 6px 2px;
+        margin: 2px 6px;
+        color: #ccc;
+    }
+
+    .heavenHillFooter aside img {
+        border-radius: 50%;
+    }
+
+    .extraLinks a:hover,
+    .ourServices a:hover {
+        color: red;
+        text-shadow: 1.5px 1.5px white;
+    }
+
+    footer ul li {
+        list-style-type: none;
+    }
+
+    .bottomInfo {
+        background-color: #31121b;
+        color: white;
+        font-size: 150%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .socialIcons {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .socialIcons div {
+        margin: 20px 8px 0px 8px;
+    }
+
+    .socialIcons a {
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-decoration: none;
+        display: block;
+        border: double;
+        border-radius: 50%;
+        padding: 4px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .socialIcons div a:hover {
+        background-color: black;
+        text-shadow: 2px 2px 1px white;
+    }
+
+    .bottomInfo sup {
+        font-size: 50%;
+    }
+
+    .insta a {
+        color: red;
+    }
+
+    .whatsapp a {
+        color: lime;
+    }
+
+    .fb a {
+        color: #7083e8;
+    }
+
+    .twitter a {
+        color: #1ea5c4;
+    }
+
+    .siteData {
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .siteData .client {
+        float: left;
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        padding-bottom: 30px;
+        width: 50%;
+        font-size: 70%;
+    }
+
+    .siteData .team {
+        float: right;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: right;
+        width: 50%;
+        font-size: 80%;
+    }
+
+    .visitorcount {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .visitorcount h4 {
+        z-index: 0;
+    }
+
+    .visitorcount p .hitCounter {
+        z-index: -1;
+    }
+}

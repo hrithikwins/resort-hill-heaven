@@ -1,110 +1,91 @@
 import React from 'react';
+import "../footer/footer.css";
+import logoImage from 'images/logo.jpg';
 
 export const Footer = () => (
-    <footer className="site-footer border-top">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-4 mb-5 mb-lg-0">
-                    <div className="row mb-5">
-                        <div className="col-12">
-                            <h3 className="footer-heading mb-4">About Us</h3>
-                            <p>We at Heaven Hill Resort aim at providing our guests the best experience
-                                of tourism and we believe to fill their life with various precious moments spent 
-                                at Heaven Hill Resort.
-                            </p>
+    <footer>
+        <div className="footerData">
+            <div className="footerFlex">
+                <div className="heavenHillFooter">
+                    <aside className>
+                        <div className>
+                            <h3>Heaven Hill Resort</h3>
                         </div>
-                    </div>
-                    <div className="row mb-5">
-                        <div className="col-md-12">
-                            <h3 className="footer-heading mb-4">Navigation</h3>
+                        <div className>
+                            <img style={{ "width": "100%", "display": "inline", "box-shadow": "inset 2px 2px 10px 10px #000f" }} src={logoImage} alt="logoImage" />
                         </div>
-                        <div className="col-md-6 col-lg-6">
-                            <ul className="list-unstyled">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#home">About</a></li>
-                                <li><a href="#home">Pricing</a></li>
-                                <li><a href="#home">Gallery</a></li>
-                            </ul>
-                        </div>
-                        <div className="col-md-6 col-lg-6">
-                            <ul className="list-unstyled">
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#home">About</a></li>
-                                <li><a href="#home">Pricing</a></li>
-                                <li><a href="#home">Offers</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    </aside>
                 </div>
-                <div className="col-lg-4">
-                    <div className="mb-5">
-                        <h3 className="footer-heading mb-4">Latest News</h3>
-                        <div className="block-25">
-                            <ul className="list-unstyled">
-                                <li className="mb-3">
-                                    <a href="#home" className="d-flex">
-                                        <figure className="image mr-4">
-                                            <img src="images/img_2.jpg" alt="news" className="img-fluid" />
-                                        </figure>
-                                        <div className="text">
-                                            <span className="small text-uppercase date">Jan 26, 2021</span>
-                                            <h3 className="heading font-weight-light">Republic Day offers at Heaven Hill Resort</h3>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li className="mb-3">
-                                    <a href="#home" className="d-flex">
-                                        <figure className="image mr-4">
-                                            <img src="images/img_3.jpg" alt="news" className="img-fluid" />
-                                        </figure>
-                                        <div className="text">
-                                            <span className="small text-uppercase date">Jan 26, 2021</span>
-                                            <h3 className="heading font-weight-light">heaven hill resort is a resort in boisar</h3>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li className="mb-3">
-                                    <a href="#home" className="d-flex">
-                                        <figure className="image mr-4">
-                                            <img src="images/img_4.jpg"  alt="news" className="img-fluid" />
-                                        </figure>
-                                        <div className="text">
-                                            <span className="small text-uppercase date">Jan 26, 2021</span>
-                                            <h3 className="heading font-weight-light">heaven hill resort is a resort in boisar</h3>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
+                <div className="extraLinks">
+                    <aside className>
+                        <div className>
+                            <h3>Extra Links</h3>
                         </div>
-                    </div>
+                        <ul>
+                            <li><a href="#">- About Us</a></li>
+                            <li><a href="#">- Faq’s</a></li>
+                            <li><a href="#">- Blog</a></li>
+                            <li><a href="#">- Testimonials</a></li>
+                            <li><a href="#">- Reservation</a></li>
+                        </ul>
+                    </aside>
                 </div>
-                <div className="col-lg-4 mb-5 mb-lg-0">
-                    <div className="mb-5">
-                        <h3 className="footer-heading mb-2">Subscribe Newsletter</h3>
-                        <p>heaven hill resort is a resort in boisar.</p>
-                        <form action="#" method="post" className="form-subscribe">
-                            <div className="input-group mb-3">
-                                <input type="text" className="form-control border-white text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2" />
-                                <div className="input-group-append">
-                                    <button className="btn btn-primary" type="button" id="button-addon2">Send</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-12">
-                            <h3 className="footer-heading mb-4">Follow Us</h3>
-                            <div>
-                                <a href="#home" className="pl-0 pr-3"><span className="icon-facebook" /></a>
-                                <a href="#home" className="pl-3 pr-3"><span className="icon-twitter" /></a>
-                                <a href="#home" className="pl-3 pr-3"><span className="icon-instagram" /></a>
-                            </div>
+                <div className="ourServices">
+                    <aside className>
+                        <div className>
+                            <h3>Our Services</h3>
                         </div>
-                    </div>
+                        <ul>
+                            <li><a href="#">- Food &amp; Drinks</a></li>
+                            <li><a href="#">- Rooms</a></li>
+                            <li><a href="#">- Amenities</a></li>
+                            <li><a href="#">- Gym &amp; Spa</a></li>
+                            <li><a href="#">- Hill Tours</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div className="socialMedia">
+                    <aside className>
+                        <div className>
+                            <h3>Instagram</h3>
+                        </div>
+                        <ul className="instaImages">
+                            {/* Instagram Post images *grid* */}
+                        </ul>
+                    </aside>
                 </div>
             </div>
-            <div className="row pt-5 mt-5 text-center">
-
+        </div>
+        <div className="bottomInfo">
+            <div className>
+                <div className="socialIcons">
+                    <div className="insta">
+                        <a href="https://www.instagram.com/heaven_hill_resort"><i className="fab fa-instagram" /></a>
+                    </div>
+                    <div className="whatsapp">
+                        <a href="https://wa.me/919021184505"><i className="fab fa-whatsapp" /></a>
+                    </div>
+                    <div className="fb">
+                        <a href="https://www.facebook.com/"><i className="fab fa-facebook-square" /></a>
+                    </div>
+                    <div className="twitter">
+                        <a href="https://www.twitter.com/"><i className="fab fa-twitter" /></a>
+                    </div>
+                </div>
+                <div className="siteData">
+                    <div className="client">
+                        <h4>Heaven Hill Resort <sup>TM</sup> <br /> All rights reserved. </h4>
+                    </div>
+                    <div className="team">
+                        <h4>Development Team: <a href="#">@hrithikrtiwari</a></h4>
+                    </div>
+                </div>
+                <div className="visitorcount">
+                    <h4>Visitor Count:</h4>
+                    <p>
+                        <a className="hitCounter" href="https://visitorshitcounter.com/" target="_blank" rel="nofollow noopener" title="Hit counter" data-name="456e2e9b6f5f4d3ae002b443f2522c2b|3|page|195|#000000|#f19494|small|s-hit">Hit Counter</a>
+                    </p>
+                </div>
             </div>
         </div>
     </footer>

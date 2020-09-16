@@ -1,9 +1,77 @@
 import React from 'react';
-import { Select, Button } from '@material-ui/core';
+import { Select } from '@material-ui/core';
 import "./styles/pricing-section.sass";
 import { useState } from 'react';
 import ReactCollapseSimple from 'react-collapse-simple';
-import { FaCalculator } from 'react-icons/fa';
+
+
+const CalculatedResult = (props) => {
+    var roomRate;
+    if (props.roomType === "Select Room") {
+        roomRate=0;
+    } else if (props.roomType === "Delux") {
+        roomRate= 2500;
+        // unsetInfo();
+        // setDeluxInfo(true);
+        // setCapacity(4);
+        // setOccupancy(2);
+        // setRoomResult(roomRate);
+        // setExtra(memberCount - occupancy);
+    } else if (props.roomType === "Super Delux") {
+        roomRate=2700;
+        // unsetInfo();
+        // setSuperDeluxInfo(true);
+        // setCapacity(6);
+        // setOccupancy(2);
+        // if (memberCount < occupancy) {dkljds
+        // setRoomResult(roomRate);
+        // }dkljds
+        // if(occupancy < memberCount < capacity) {dkljds
+        // setExtra(memberCount - occupancy);
+        // extra = memberCount - occupancy;dkljds
+        // setRoomResult(roomRate + extra * 500);dkljds
+        // } else { setRoomResult(0) }dkljds
+
+    } else if (props.roomType === "Dormitory") {
+        // setRoomRate(8000);dkljds
+        roomRate= 8000;
+        // unsetInfo();
+        // setDormitoryInfo(true);
+        // setCapacity(10);
+        // setOccupancy(8);
+        // if (memberCount < occupancy) {dkljds
+        // setRoomResult(roomRate);
+        // }
+        // if(occupancy < memberCount < capacity) {
+        // setExtra(memberCount - occupancy);
+        // extra = memberCount - occupancy;
+        // setRoomResult(roomRate + extra * 500);
+        // } else { setRoomResult(0) }
+
+    } else if (props.roomType === "Tree House") {
+        // setRoomRate(4000)
+        roomRate = 4000;
+        // unsetInfo();
+        // setTreeHouseInfo(true);
+        // setCapacity(2);
+        // setOccupancy(2);
+        // if (memberCount < occupancy) {
+        // setRoomResult(roomRate);
+        // }
+        // if(occupancy < memberCount < capacity) {
+        // setExtra(memberCount - occupancy);
+        // extra = memberCount - occupancy;
+        // setRoomResult(roomRate + extra * 500);
+        // } else { setRoomResult(0) }
+    }
+    return(
+        <>
+        dion
+        {roomRate}
+        </>
+    );
+}
+
 
 export const PricingSection = () => {
     const [room, setRoom] = useState('Select Room');
@@ -29,67 +97,7 @@ export const PricingSection = () => {
 
     const roomAction = (value) => {
         setRoom(value);
-        if (value === "Select Room") {
-            setRoomRate(0);
-        } else if (value === "Delux") {
-            setRoomRate(2500);
-            unsetInfo();
-            setDeluxInfo(true);
-            setCapacity(4);
-            setOccupancy(2);
-            // if (memberCount < occupancy) {
-            setRoomResult(roomRate);
-            // }
-            // if(occupancy < memberCount < capacity) {
-            setExtra(memberCount - occupancy);
-            // extra = memberCount - occupancy;
-            // setRoomResult(roomRate + extra * 500);
-            // } else { setRoomResult(0) }
-        } else if (value === "Super Delux") {
-            setRoomRate(2700);
-            unsetInfo();
-            setSuperDeluxInfo(true);
-            setCapacity(6);
-            setOccupancy(2);
-            // if (memberCount < occupancy) {
-            setRoomResult(roomRate);
-            // }
-            // if(occupancy < memberCount < capacity) {
-            setExtra(memberCount - occupancy);
-            // extra = memberCount - occupancy;
-            // setRoomResult(roomRate + extra * 500);
-            // } else { setRoomResult(0) }
-
-        } else if (value === "Dormitory") {
-            setRoomRate(8000);
-            unsetInfo();
-            setDormitoryInfo(true);
-            setCapacity(10);
-            setOccupancy(8);
-            // if (memberCount < occupancy) {
-            setRoomResult(roomRate);
-            // }
-            // if(occupancy < memberCount < capacity) {
-            setExtra(memberCount - occupancy);
-            // extra = memberCount - occupancy;
-            // setRoomResult(roomRate + extra * 500);
-            // } else { setRoomResult(0) }
-
-        } else if (value === "Tree House") {
-            setRoomRate(4000)
-            unsetInfo();
-            setTreeHouseInfo(true);
-            setCapacity(2);
-            setOccupancy(2);
-            // if (memberCount < occupancy) {
-            setRoomResult(roomRate);
-            // }
-            // if(occupancy < memberCount < capacity) {
-            setExtra(memberCount - occupancy);
-            // extra = memberCount - occupancy;
-            // setRoomResult(roomRate + extra * 500);
-            // } else { setRoomResult(0) }
-        }
+        
 
     }
 
@@ -132,7 +140,7 @@ export const PricingSection = () => {
                             </div>
                             <br />
                             <label htmlFor="memberCount">Number of Members&nbsp; &nbsp;&nbsp; &nbsp;</label>
-                            <Select name="memberCount" value={memberCount} onChange={(e) => {setMemberCount(e.target.value); roomAction(room)}}>
+                            <Select name="memberCount" value={memberCount} onChange={(e) => { setMemberCount(e.target.value); roomAction(room) }}>
                                 <option value={1}>1</option>
                                 <option value={2}>2</option>
                                 <option value={3}>3</option>
@@ -161,6 +169,11 @@ export const PricingSection = () => {
                             <br />
 
                             <label>Your Total cost will be  <h2>₹{roomRate}{'+'}₹{extra * 500}{'='}₹ <span className="text-orangered">{roomRate + extra * 500} </span> </h2></label>
+
+                            {/* The CalculatedResult component will take props and return show the value */}
+                            <CalculatedResult
+                            roomType={room}
+                            />
                             <ReactCollapseSimple isOpen={deluxInfo}>
                                 The Delux Room Costs ₹2500 for 2 people in AC Rooms and ₹2100 for Non-AC Rooms
                                 For Every Extra Person after 2 members, it costs ₹500/head at a maximum Capacity of 4 Members

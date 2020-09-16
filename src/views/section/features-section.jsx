@@ -37,7 +37,8 @@ export const FeaturesSection = () => (
                         <div className="mr-3 icon"><span className="flaticon-turned-off display-4" /></div>
                         <div className="media-body">
                             <h5 className="mt-0">Clean Rooms</h5>
-                      
+                            Heaven Hill Resort has some of the finest and well-trained room services
+                            which ensures cleanliness in your living.
                     </div>
                     </div>
                 </div>
@@ -46,7 +47,8 @@ export const FeaturesSection = () => (
                         <div className="mr-3 icon"><span className="flaticon-window display-4" /></div>
                         <div className="media-body">
                             <h5 className="mt-0">Group Entries Discount</h5>
-                      
+                            We believe the real fun and adventure is useless without our loved ones.
+                            Enjoy your day with friends, family and loved ones.
                     </div>
                     </div>
                 </div>
@@ -55,7 +57,7 @@ export const FeaturesSection = () => (
                         <div className="mr-3 icon"><span className="flaticon-measuring display-4" /></div>
                         <div className="media-body">
                             <h5 className="mt-0">Secured Parking Space</h5>
-                      
+                            Heaven Hill Resort has ample Parking Space and secured parking with trust.
                     </div>
                     </div>
                 </div>
@@ -64,7 +66,8 @@ export const FeaturesSection = () => (
                         <div className="mr-3 icon"><span className="flaticon-sit-down display-4" /></div>
                         <div className="media-body">
                             <h5 className="mt-0">Veg and Non-Veg Food separately</h5>
-                      
+                            We at Heaven Hill Resort believe your food is the ultimate way to reach your 
+                            soul. So we maintain the absolute hygiene and cleanliness everywhere.
                     </div>
                     </div>
                 </div>

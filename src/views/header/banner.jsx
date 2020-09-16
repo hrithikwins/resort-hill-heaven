@@ -4,7 +4,7 @@ import '../header/styles/banner.sass';
 
 export const Banner = () => (
     <div className="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5" id="home-section">
-        <div className="container">
+        <div className="banner-background-gif">
             <div className="row align-items-center text-center justify-content-center">
                 <div className="col-md-8">
                     <a data-fancybox data-ratio={2} href="#home" className="play-button d-block">
