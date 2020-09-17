@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FaHotel, FaTree, FaPalette, FaUtensilSpoon, FaCookie } from 'react-icons/fa';
+import { FaHotel, FaTree, FaUtensilSpoon } from 'react-icons/fa';
 
 export const Features = () => (
     <div className="site-section  border-bottom">

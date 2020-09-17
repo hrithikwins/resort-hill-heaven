@@ -1,7 +1,7 @@
 import React from 'react';
 import heroBg from 'images/hero_bg_1.jpeg';
 import { Link } from 'react-router-dom';
-import { FaCheck, FaCheckSquare } from 'react-icons/fa';
+import {  FaCheckSquare } from 'react-icons/fa';
 import "./styles/about-section.sass";
 
 export const AboutSection = () => (

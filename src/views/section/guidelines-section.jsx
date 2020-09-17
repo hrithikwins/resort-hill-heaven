@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaListAlt, FaRegCheckCircle, FaRegDotCircle } from 'react-icons/fa';
+import {  FaRegCheckCircle, FaRegDotCircle } from 'react-icons/fa';
 
 export const Guidelines = () => (
     <>
@@ -9,11 +9,11 @@ export const Guidelines = () => (
             TODO list for Heaven Hill Resort
     </h2>
         <ul className="justify-right list-none col-md-6 col-sm-12">
-            <li><FaRegCheckCircle/> Checkin Time 12:00 pm and checkout time 11:00 a.m.</li>
-            <li><FaRegCheckCircle/> ID proof is Compulsory: All Adults must carry their Identity Proof at the time of checking in(Driving License, Voters Card, Passport, PAN Card or Aadhar Card</li>
-            <li><FaRegCheckCircle/> Take care of resort property as you do for your home</li>
-            <li><FaRegCheckCircle/> Switch Off Fans, ACs, Lights and other Elelctronic Equipments when not in Use</li>
-            <li><FaRegCheckCircle/> Take care of your belongings</li>
+            <input type="checkbox" checked/>Checkin Time 12:00 pm and checkout time 11:00 a.m.<br/>
+            <input type="checkbox" checked/>ID proof is Compulsory: All Adults must carry their Identity Proof at the time of checking in(Driving License, Voters Card, Passport, PAN Card or Aadhar Card<br/>
+            <input type="checkbox" checked/>Take care of resort property as you do for your home<br/>
+            <input type="checkbox" checked/>Switch Off Fans, ACs, Lights and other Elelctronic Equipments when not in Use<br/>
+            <input type="checkbox" checked/>Take care of your belongings<br/>
         </ul>
         </div>
         <div className="col-md-6 list-style-none row">

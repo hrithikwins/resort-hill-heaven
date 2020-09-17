@@ -100,9 +100,10 @@ export const FaqSection = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="mb-0 rounded mb-2">
-                                    <a href="#home" data-toggle="collapse" onClick={() => setTrekking(!trekking)} data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <a className="collapsed text-orangered" onClick={() => setTrekking(!trekking)} data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <FaGreaterThan></FaGreaterThan>
-                                        Do we get trekking packages in your resort?</a>
+                                         Do we get trekking packages in your resort?
+                            </a>
                                 </h2>
                                 <ReactCollapseSimple isOpen={trekking}>
                                     <div className="accordion-body">

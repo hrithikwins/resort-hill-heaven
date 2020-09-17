@@ -14,26 +14,48 @@ const CalculatedResult = (props) => {
         roomRate = 0;
         capacity = 0;
         occupancy = 0;
-    } else if (props.roomType === "Delux") {
-        // DELUX ROOMS
-        roomRate = 2500;
+    } else if (props.roomType === "Delux" && props.conditioned === true) {
+        // DELUX ROOMS ac
+        roomRate = 2400;
         capacity = 4;
         occupancy = 2;
-    } else if (props.roomType === "Super Delux") {
+    } else if (props.roomType === "Super Delux" && props.conditioned === true) {
         // SUPER DELUX ROOMS
         roomRate = 2700;
         capacity = 6;
         occupancy = 2;
 
-    } else if (props.roomType === "Dormitory") {
+    } else if (props.roomType === "Dormitory" && props.conditioned === true) {
         // DORMITORY ROOMS
-        roomRate = 8000;
+        roomRate = 7200;
         capacity = 10;
         occupancy = 8;
 
-    } else if (props.roomType === "Tree House") {
+    } else if (props.roomType === "Tree House" && props.conditioned === true) {
         // TREE HOUSE
         roomRate = 4000;
+        capacity = 2;
+        occupancy = 2;
+    } else if (props.roomType === "Delux" && props.conditioned === false) {
+        // DELUX ROOMS non- ac
+        roomRate = 2100;
+        capacity = 4;
+        occupancy = 2;
+    } else if (props.roomType === "Super Delux" && props.conditioned === false) {
+        // SUPER DELUX ROOMS
+        roomRate = 2400;
+        capacity = 6;
+        occupancy = 2;
+
+    } else if (props.roomType === "Dormitory" && props.conditioned === false) {
+        // DORMITORY ROOMS
+        roomRate = 6400;
+        capacity = 10;
+        occupancy = 8;
+
+    } else if (props.roomType === "Tree House" && props.conditioned === false) {
+        // TREE HOUSE
+        roomRate = 3500;
         capacity = 2;
         occupancy = 2;
     }
@@ -45,10 +67,10 @@ const CalculatedResult = (props) => {
     return (
         <>
             <label>Your Total cost will be  <h2>₹{roomRate}{'+'}₹{extra * 500}{'='}₹ <span className="text-orangered">{roomRate + extra * 500} </span> </h2></label>
-
         </>
     );
 }
+
 
 
 export const PricingSection = () => {
@@ -58,14 +80,50 @@ export const PricingSection = () => {
     const [superDeluxInfo, setSuperDeluxInfo] = useState(false);
     const [dormitoryInfo, setDormitoryInfo] = useState(false);
     const [treeHouseInfo, setTreeHouseInfo] = useState(false);
+    const [airConditioned, setAirConditioned] = useState(true);
     // integer values
     const [memberCount, setMemberCount] = useState(1);
-    const [roomRate, setRoomRate] = useState(0);
-    // const [capacity, setCapacity] = useState(0);
-    // const [occupancy, setOccupancy] = useState(0);
-    // const [roomResult, setRoomResult] = useState(0);
-    // const [extra, setExtra] = useState(0);
+    const [capacity, setCapacity] = useState(0);
+    const [occupancy, setOccupancy] = useState(0);
 
+
+    function DropDownInfo(props) {
+        if (props.room === "Select Room") {
+            setCapacity(0);
+            setOccupancy(0);
+            setMemberCount(occupancy);
+            unsetInfo();
+        } else if (props.room === "Delux") {
+            // DELUX ROOMS
+            setCapacity(4);
+            setOccupancy(2);
+            setMemberCount(occupancy);
+            unsetInfo();
+            setDeluxInfo(true);
+        } else if (props.room === "Super Delux") {
+            // SUPER DELUX ROOMS
+            setCapacity(6);
+            setOccupancy(2);
+            setMemberCount(occupancy);
+            unsetInfo();
+            setSuperDeluxInfo(true);
+        } else if (props.room === "Dormitory") {
+            // DORMITORY ROOMS
+            setCapacity(10);
+            setOccupancy(8);
+            setMemberCount(occupancy);
+            unsetInfo();
+            setDormitoryInfo(true);
+        } else if (props.room === "Tree House") {
+            // TREE HOUSE
+            setCapacity(2);
+            setOccupancy(2);
+            setMemberCount(occupancy);
+            unsetInfo();
+            setTreeHouseInfo(true);
+        }
+        return (null);
+    }
     // unset for collapsible
     function unsetInfo() {
         setDeluxInfo(false)
@@ -73,7 +131,20 @@ export const PricingSection = () => {
         setDormitoryInfo(false)
         setTreeHouseInfo(false)
     }
-
+    const MemberCountSelect = (props) => {
+        const numbers = [];
+        for (var i = props.occupancy; i >= props.occupancy && i <= props.capacity; i++) {
+            numbers.push(i);
+        }
+        return (
+            <Select name="memberCount" value={memberCount} onChange={(e) => { setMemberCount(e.target.value); setRoom(room); }}>
+                {numbers.map(
+                    (i) => {
+                        return <option value={i}>{i}</option>
+                    })}
+            </Select>
+        );
+    };
     return (
         <div className="site-section" id="pricing-section">
             <div className="container">
@@ -101,26 +172,27 @@ export const PricingSection = () => {
                                     <option value="Super Delux">Super Delux</option>
                                     <option value="Dormitory">Dormitory</option>
                                     <option value="Tree House">Tree House</option>
+                                    <DropDownInfo
+                                        room={room}
+                                    />
                                 </Select>
                             </div>
                             <br />
                             <label htmlFor="memberCount">Number of Members&nbsp; &nbsp;&nbsp; &nbsp;</label>
-                            <Select name="memberCount" value={memberCount} onChange={(e) => { setMemberCount(e.target.value); setRoom(room) }}>
-                                <option value={1}>1</option>
-                                <option value={2}>2</option>
-                                <option value={3}>3</option>
-                                <option value={4}>4</option>
-                                <option value={5}>5</option>
-                                <option value={6}>6</option>
-                                <option value={7}>7</option>
-                                <option value={8}>8</option>
-                                <option value={9}>9</option>
-                                <option value={10}>10</option>
-                            </Select>
+                            <MemberCountSelect
+                                capacity={capacity}
+                                occupancy={occupancy}
+                            />
+                            {/* <Slider from={2} to={9} steps={1}>
+
+                            </Slider> */}
                             <div>
                                 <br />
-                                <input type="radio" name="selection" defaultValue="One" />A/C &nbsp;
-                      <input type="radio" name="selection" defaultValue="Two" />Non- A/C
+                                <input type="radio" name="selection" defaultValue="One" id="ac" onChange={() => setAirConditioned(true)}/> &nbsp;
+                                <label htmlFor="ac">AC</label>
+                                &nbsp; &nbsp;
+                      <input type="radio" name="selection" defaultValue="Two" id="non-ac" onChange={() => setAirConditioned(false)}/>
+                                <label htmlFor="non-ac">Non-AC</label>
                     </div>
                             <br />
                             {/* <Button
@@ -136,21 +208,22 @@ export const PricingSection = () => {
                             <CalculatedResult
                                 roomType={room}
                                 count={memberCount}
+                                conditioned = {airConditioned}
                             />
                             <ReactCollapseSimple isOpen={deluxInfo}>
-                                The Delux Room Costs ₹2500 for 2 people in AC Rooms and ₹2100 for Non-AC Rooms
-                                For Every Extra Person after 2 members, it costs ₹500/head at a maximum Capacity of 4 Members
+                                The Delux Room Costs <span className="text-orange">₹2400</span> for <span className="text-orange">2</span> people in AC Rooms and <span className="text-orange">₹2100 </span>for Non-AC Rooms
+                                For Every Extra Person, it costs ₹500/head at a maximum Capacity of <span className="text-orange">4</span> Members
                             </ReactCollapseSimple>
                             <ReactCollapseSimple isOpen={superDeluxInfo}>
-                                The Super Delux Room Costs ₹2700 for 2 people in AC Rooms and ₹2400 for Non-AC Rooms
-                                For Every Extra Person after 2 members, it costs ₹500/head at a maximum Capacity of 6 Members
+                                The Super Delux Room Costs <span className="text-orange">₹2700</span> for <span className="text-orange">2</span> people in AC Rooms and <span className="text-orange">₹2400</span> for Non-AC Rooms
+                                For Every Extra Person, it costs ₹500/head at a maximum Capacity of <span className="text-orange">6</span> Members
                             </ReactCollapseSimple>
                             <ReactCollapseSimple isOpen={dormitoryInfo}>
-                                The Dormitory Room Costs ₹8000 for 8 people in AC Rooms and ₹6400 for Non-AC Rooms
-                                For Every Extra Person after 2 members, it costs ₹500/head at a maximum Capacity of 10 Members
+                                The Dormitory Room Costs <span className="text-orange">₹7200</span> for 8 people in AC Rooms and <span className="text-orange">₹6400</span> for Non-AC Rooms
+                                For Every Extra Person, it costs ₹500/head at a maximum Capacity of <span className="text-orange">10</span> Members
                             </ReactCollapseSimple>
                             <ReactCollapseSimple isOpen={treeHouseInfo}>
-                                The Rooms in Tree House Costs ₹4000 for maximum Capacity of 2 Members Only
+                                The Rooms in Tree House Costs <span className="text-orange">₹4000 </span>for maximum Capacity of <span className="text-orange">2</span> Members Only
                             </ReactCollapseSimple>
                         </div>
                     </div>

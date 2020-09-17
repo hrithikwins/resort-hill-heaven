@@ -17,7 +17,6 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import { Guidelines } from 'views/section/guidelines-section';
 
 function App() {
-  const [open,setOpen] = useState(false);
   return (
     <>
       <div className="site-wrap">
@@ -34,7 +33,7 @@ function App() {
               <TopNav />
               <Navigation />
               <Banner />
-              <marquee className="text-orange"><span aria-label="warning">⚠</span>Due to COVID 19 safety measures, outside food is not allowed</marquee>
+              <marquee className="text-orangered"><span aria-label="warning">⚠</span>Due to COVID 19 safety measures, outside food is not allowed</marquee>
               <AboutSection />
               <Features />
               <RoomsSection />

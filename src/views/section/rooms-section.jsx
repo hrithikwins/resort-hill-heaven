@@ -6,7 +6,7 @@ import ConferenceHall from 'images/rooms/conference_room.jpg';
 import European from 'images/rooms/european.jpg';
 import French from 'images/rooms/french.jpg';
 import TreeHouse from 'images/rooms/tree-house.jpg';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const RoomsSection = () => (
     <div className="site-section" id="rooms-section">
@@ -22,42 +22,42 @@ export const RoomsSection = () => (
 
                 <div className="col-lg-4 col-md-6 mb-4 project-entry">
                     <Link to="images/img_4.jpg" className="d-block figure" data-fancybox="gallery">
-                        <img src={ConferenceHall} />
+                        <img src={ConferenceHall} alt="Conference Hall" />
                     </Link>
                     <h3 className="mb-0"><Link to="#home">Conference Hall</Link></h3>
                     <span className="text-muted">Interior</span>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-4 project-entry">
                     <Link to="images/img_5.jpg" className="d-block figure" data-fancybox="gallery">
-                        <img src={DormitoryRoom} />
+                        <img src={DormitoryRoom} alt="Rooms"/>
                     </Link>
                     <h3 className="mb-0"><Link to="#home"> Dormitory Room</Link></h3>
                     <span className="text-muted">Interior</span>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-4 project-entry">
                     <Link to="images/img_6.jpg" className="d-block figure" data-fancybox="gallery">
-                        <img src={DiningHall} />
+                        <img src={DiningHall} alt="Rooms" />
                     </Link>
                     <h3 className="mb-0"><Link to="#home">Dining Hall</Link></h3>
                     <span className="text-muted">Interior</span>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-4 project-entry">
                     <Link to="images/img_1.jpg" className="d-block figure" data-fancybox="gallery">
-                        <img src={TreeHouse} />
+                        <img src={TreeHouse} alt="Rooms" />
                     </Link>
                     <h3 className="mb-0"><Link to="#home">Tree House</Link></h3>
                     <span className="text-muted">Interior</span>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-4 project-entry">
                     <Link to="images/img_2.jpg" className="d-block figure" data-fancybox="gallery">
-                        <img src={French} />
+                        <img src={French} alt="Rooms" />
                     </Link>
                     <h3 className="mb-0"><Link to="#home">French Rooms</Link></h3>
                     <span className="text-muted">Interior</span>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-4 project-entry">
                     <Link to="images/img_3.jpg" className="d-block figure" data-fancybox="gallery">
-                        <img src={European} />
+                        <img src={European} alt="Rooms" />
                     </Link>
                     <h3 className="mb-0"><Link to="#home">European Rooms</Link></h3>
                     <span className="text-muted">Interior</span>

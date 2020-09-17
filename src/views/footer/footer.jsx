@@ -22,11 +22,11 @@ export const Footer = () => (
                             <h3>Extra Links</h3>
                         </div>
                         <ul>
-                            <li><a href="#">- About Us</a></li>
-                            <li><a href="#">- Faq’s</a></li>
-                            <li><a href="#">- Blog</a></li>
-                            <li><a href="#">- Testimonials</a></li>
-                            <li><a href="#">- Reservation</a></li>
+                            <li><a href="/home/#about-section">- About Us</a></li>
+                            <li><a href="/home/#faq-section">- Faq’s</a></li>
+                            <li><a href="/blog">- Blog</a></li>
+                            <li><a href="/testimonials">- Testimonials</a></li>
+                            <li><a href="/reservation">- Reservation</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -36,11 +36,11 @@ export const Footer = () => (
                             <h3>Our Services</h3>
                         </div>
                         <ul>
-                            <li><a href="#">- Food &amp; Drinks</a></li>
-                            <li><a href="#">- Rooms</a></li>
-                            <li><a href="#">- Amenities</a></li>
-                            <li><a href="#">- Gym &amp; Spa</a></li>
-                            <li><a href="#">- Hill Tours</a></li>
+                            <li><a href="/food">- Food &amp; Drinks</a></li>
+                            <li><a href="/home/#rooms-section">- Rooms</a></li>
+                            <li><a href="/amenities">- Amenities</a></li>
+                            <li><a href="/gym">- Gym &amp; Spa</a></li>
+                            <li><a href="/hill-tours">- Hill Tours</a></li>
                         </ul>
                     </aside>
                 </div>

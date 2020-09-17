@@ -24,45 +24,45 @@ export const PricingChartSection = () => (
                         <tr>
                             <td>Delux</td>
                             <td>Double Bed</td>
-                            <td>2 Members</td>
+                            <td>2 People</td>
                             <td>2400/-</td>
                             <td>2100/-</td>
                             <td>500/-</td>
-                            <td>4 Members</td>
+                            <td>4 People</td>
                         </tr>
                         <tr>
                             <td>Super Delux</td>
                             <td>Double Bed</td>
-                            <td>2 Members</td>
+                            <td>2 People</td>
                             <td>2700/-</td>
                             <td>2400/-</td>
                             <td>500/-</td>
-                            <td>6 Members</td>
+                            <td>6 People</td>
                         </tr>
                         <tr>
                             <td rowspan="2">Dormitory</td>
                             <td>24 hours</td>
-                            <td>8 Members</td>
+                            <td>8 People</td>
                             <td>7200/-</td>
                             <td>6400/-</td>
                             <td>500/-</td>
-                            <td>10 Members</td>
+                            <td>10 People</td>
                         </tr>
                         <tr>
                             <td>12 hours</td>
-                            <td>8 Members</td>
+                            <td>8 People</td>
                             <td>4000/-</td>
                             <td>3200/-</td>
                             <td>300/-</td>
-                            <td>10 Members</td>
+                            <td>10 People</td>
                         </tr>
                         <tr>
                             <td>Tree House</td>
                             <td>Double Bed</td>
-                            <td>2 Members</td>
+                            <td>2 People</td>
                             <td>4000/-</td>
                             <td>3500/-</td>
-                            <td colspan="2">Only 2 Members </td>
+                            <td colspan="2">Only 2 People </td>
                         </tr>
                     </table>
                 </div>

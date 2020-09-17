@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import logoImage from 'images/logo.jpg';
 import '../nav/styles/nav.sass';
-import { Link } from 'react-router-dom';
-import { FaArrowRight, FaEnvelope, FaPhoneAlt, FaHamburger, FaBars, FaLongArrowAltDown, FaArrowDown, FaArrowsAltV, FaArrowCircleDown, FaTwitter, FaFacebook, FaInstagram, FaCross, FaDoorClosed, FaEarlybirds, FaCube, FaCheckDouble, FaCloudMoonRain, FaBold, Fa500Px, FaHome, FaInfo, FaPhotoVideo, FaMoneyCheckAlt, FaQuestion, FaLocationArrow } from 'react-icons/fa';
-import { MobileStepper } from '@material-ui/core';
+import { FaEnvelope, FaPhoneAlt, FaBars, FaTwitter, FaFacebook, FaInstagram, FaHome, FaInfo, FaPhotoVideo, FaMoneyCheckAlt, FaQuestion, FaLocationArrow } from 'react-icons/fa';
 
 
 
@@ -36,15 +34,13 @@ export const Navigation = () => {
                         </div>
                     </div>
                 </div>
-                <div><a href="/home/#home-section" className="menu-items" onClick={() => closeMenu()}><FaHome/>&nbsp; Home</a></div><hr />
-                <div><a href="/home/#about-section" className="menu-items" onClick={() => closeMenu()}><FaInfo/>&nbsp; About</a></div> <hr />
-                <div><a href="gallery" className="menu-items" onClick={() => closeMenu()}><FaPhotoVideo/>&nbsp; Gallery</a></div> <hr />
-                <div><a href="/home/#pricing-section" className="menu-items" onClick={() => closeMenu()}><FaMoneyCheckAlt/>&nbsp; Tariff</a></div> <hr />
-                <div><a href="/home/#faq-section" className="menu-items" onClick={() => closeMenu()}><FaQuestion/>&nbsp; FAQs</a></div> <hr />
-                <div><a href="/home/#contact-section" className="menu-items" onClick={() => closeMenu()}><FaLocationArrow/>&nbsp; Contact</a></div>
+                <div><a href="/home/#home-section" className="menu-items" onClick={() => closeMenu()}><FaHome />&nbsp; Home</a></div><hr />
+                <div><a href="/home/#about-section" className="menu-items" onClick={() => closeMenu()}><FaInfo />&nbsp; About</a></div> <hr />
+                <div><a href="gallery" className="menu-items" onClick={() => closeMenu()}><FaPhotoVideo />&nbsp; Gallery</a></div> <hr />
+                <div><a href="/home/#pricing-section" className="menu-items" onClick={() => closeMenu()}><FaMoneyCheckAlt />&nbsp; Tariff</a></div> <hr />
+                <div><a href="/home/#faq-section" className="menu-items" onClick={() => closeMenu()}><FaQuestion />&nbsp; FAQs</a></div> <hr />
+                <div><a href="/home/#contact-section" className="menu-items" onClick={() => closeMenu()}><FaLocationArrow />&nbsp; Contact</a></div>
             </ul>
-
-
             <div className="site-navbar-wrap">
                 <div className="site-navbar-top">
                     <div className="container py-3">
