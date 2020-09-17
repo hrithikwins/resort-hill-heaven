@@ -1,6 +1,7 @@
 import React from 'react';
 import "../footer/footer.css";
 import logoImage from 'images/logo.jpg';
+import { FaInstagram, FaWhatsapp, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 export const Footer = () => (
     <footer>
@@ -60,16 +61,16 @@ export const Footer = () => (
             <div className>
                 <div className="socialIcons">
                     <div className="insta">
-                        <a href="https://www.instagram.com/heaven_hill_resort"><i className="fab fa-instagram" /></a>
+                        <a href="https://www.instagram.com/heaven_hill_resort"><FaInstagram/></a>
                     </div>
                     <div className="whatsapp">
-                        <a href="https://wa.me/919021184505"><i className="fab fa-whatsapp" /></a>
+                        <a href="https://wa.me/919021184505"><FaWhatsapp/></a>
                     </div>
                     <div className="fb">
-                        <a href="https://www.facebook.com/"><i className="fab fa-facebook-square" /></a>
+                        <a href="https://www.facebook.com/"><FaFacebook/></a>
                     </div>
                     <div className="twitter">
-                        <a href="https://www.twitter.com/"><i className="fab fa-twitter" /></a>
+                        <a href="https://www.twitter.com/"><FaTwitter/></a>
                     </div>
                 </div>
                 <div className="siteData">
