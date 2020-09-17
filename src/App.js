@@ -11,34 +11,15 @@ import { PricingChartSection } from './views/section/pricing-chart-section';
 import { RoomsSection } from './views/section/rooms-section';
 import { Footer } from './views/footer/footer';
 import { PricingSection } from './views/section/pricing-section';
-import { SocialSection } from './views/section/social-section';
 import { GallerySection } from './views/section/gallery-section';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import { Guidelines } from 'views/section/guidelines-section';
-import {HamburgerMenu} from 'react-hamburger-menu';
 
 function App() {
   const [open,setOpen] = useState(false);
   return (
     <>
-      {/* <div id="overlayer" /> */}
-      {/* <div className="loader">
-        <div className="spinner-border text-primary" role="status">
-          <span className="sr-only">Loading...</span>
-        </div>
-      </div> */}
-      {/* <HamburgerMenu
-        isOpen={open}
-        menuClicked={setOpen(true)}
-        width={18}
-        height={15}
-        strokeWidth={1}
-        rotate={0}
-        color='black'
-        borderRadius={0}
-        animationDuration={0.5}
-      /> */}
       <div className="site-wrap">
         <Router>
           <Switch>
@@ -49,24 +30,25 @@ function App() {
               <GallerySection />
               <Footer />
             </Route>
-          </Switch>
-          <Switch>
-            <Route path="/">
+            <Route path="/home">
               <TopNav />
               <Navigation />
               <Banner />
-              <marquee><span aria-label="warning">⚠</span>Due to COVID 19 safety measures, outside food is not allowed</marquee>
-              <Features />
+              <marquee className="text-orange"><span aria-label="warning">⚠</span>Due to COVID 19 safety measures, outside food is not allowed</marquee>
               <AboutSection />
-              <FeaturesSection />
+              <Features />
               <RoomsSection />
-              <FaqSection />
+              <FeaturesSection />
               <PricingChartSection />
               <PricingSection />
+              <FaqSection />
               <ContactSection />
               {/* <SocialSection /> */}
               <Guidelines/>
               <Footer />
+            </Route>
+            <Route exact path="/">
+              <Redirect to="/home"/>
             </Route>
           </Switch>
         </Router>

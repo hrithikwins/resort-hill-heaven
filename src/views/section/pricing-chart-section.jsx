@@ -25,7 +25,7 @@ export const PricingChartSection = () => (
                             <td>Delux</td>
                             <td>Double Bed</td>
                             <td>2 Members</td>
-                            <td>2500/-</td>
+                            <td>2400/-</td>
                             <td>2100/-</td>
                             <td>500/-</td>
                             <td>4 Members</td>
@@ -41,18 +41,18 @@ export const PricingChartSection = () => (
                         </tr>
                         <tr>
                             <td rowspan="2">Dormitory</td>
-                            <td>Dormitory for 24 hrs</td>
+                            <td>24 hours</td>
                             <td>8 Members</td>
-                            <td>8000/-</td>
+                            <td>7200/-</td>
                             <td>6400/-</td>
                             <td>500/-</td>
                             <td>10 Members</td>
                         </tr>
                         <tr>
-                            <td>Dormitory for a day's picnic</td>
+                            <td>12 hours</td>
                             <td>8 Members</td>
-                            <td>4800/-</td>
                             <td>4000/-</td>
+                            <td>3200/-</td>
                             <td>300/-</td>
                             <td>10 Members</td>
                         </tr>
@@ -61,7 +61,47 @@ export const PricingChartSection = () => (
                             <td>Double Bed</td>
                             <td>2 Members</td>
                             <td>4000/-</td>
-                            <td colspan="3">Only 2 Members </td>
+                            <td>3500/-</td>
+                            <td colspan="2">Only 2 Members </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <br />
+                <div class="roomrates col-12 justify-center">
+                    <h2>Day Tariff Plans</h2>
+                    <table border="2" id="roomRates">
+                        <th>Room Type</th>
+                        <th>Occupancy</th>
+                        <th>A/c</th>
+                        <th>Non-A/C</th>
+                        <th>Extra Person</th>
+                        <th>Capacity</th>
+                        <tr>
+                            <td>Delux</td>
+                            {/* <td>Double Bed</td> */}
+                            <td>2 Members</td>
+                            <td>2400/-</td>
+                            <td>2100/-</td>
+                            <td>500/-</td>
+                            <td>4 Members</td>
+                        </tr>
+                        <tr>
+                            <td>Dormitory</td>
+                            {/* <td>12 hours</td> */}
+                            <td>8 Members</td>
+                            <td>4000/-</td>
+                            <td>3200/-</td>
+                            <td>300/-</td>
+                            <td>10 Members</td>
+                        </tr>
+                        <tr>
+                            <td>Tree House</td>
+                            {/* <td>Double Bed</td> */}
+                            <td>2 Members</td>
+                            <td>4000/-</td>
+                            <td>3500/-</td>
+                            <td colspan="2">Only 2 Members </td>
                         </tr>
                     </table>
                 </div>
@@ -77,10 +117,10 @@ export const PricingChartSection = () => (
                                 Breakfast, Lunch, evening Snacks &amp; Swimming
                         </td>
                             <td>
-                                850/-
+                                800/-
                         </td>
                             <td>
-                                750/-
+                                700/-
                         </td>
                         </tr>
                     </table>
@@ -96,11 +136,17 @@ export const PricingChartSection = () => (
                     <div class="packageRates">
                         <table>
                             <th>
-                                Adult Per Head
+                                Adult
+                        </th>
+                            <th>
+                                Child
                         </th>
                             <tr>
                                 <td>
                                     300
+                            </td>
+                                <td>
+                                    200
                             </td>
                             </tr>
                         </table>

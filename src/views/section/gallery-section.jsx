@@ -48,7 +48,7 @@ export const GallerySection = () => (
             <h2 className="font-weight-bold text-black">Featured Clicks</h2>
             <p className="mb-5">Collection of some best of the images of Heaven Hill Resort received from visitors.</p>
         </div>
-        <div className="container row">
+        <div className="gallery-container row">
             <div className="col-md-4 col-sm-12"><img alt="gallery1" src={gallery1} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery2} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery3} /></div>

@@ -7,67 +7,45 @@ import ReactCollapseSimple from 'react-collapse-simple';
 
 const CalculatedResult = (props) => {
     var roomRate;
+    var capacity;
+    var occupancy;
+    var extra = 0;
     if (props.roomType === "Select Room") {
-        roomRate=0;
+        roomRate = 0;
+        capacity = 0;
+        occupancy = 0;
     } else if (props.roomType === "Delux") {
-        roomRate= 2500;
-        // unsetInfo();
-        // setDeluxInfo(true);
-        // setCapacity(4);
-        // setOccupancy(2);
-        // setRoomResult(roomRate);
-        // setExtra(memberCount - occupancy);
+        // DELUX ROOMS
+        roomRate = 2500;
+        capacity = 4;
+        occupancy = 2;
     } else if (props.roomType === "Super Delux") {
-        roomRate=2700;
-        // unsetInfo();
-        // setSuperDeluxInfo(true);
-        // setCapacity(6);
-        // setOccupancy(2);
-        // if (memberCount < occupancy) {dkljds
-        // setRoomResult(roomRate);
-        // }dkljds
-        // if(occupancy < memberCount < capacity) {dkljds
-        // setExtra(memberCount - occupancy);
-        // extra = memberCount - occupancy;dkljds
-        // setRoomResult(roomRate + extra * 500);dkljds
-        // } else { setRoomResult(0) }dkljds
+        // SUPER DELUX ROOMS
+        roomRate = 2700;
+        capacity = 6;
+        occupancy = 2;
 
     } else if (props.roomType === "Dormitory") {
-        // setRoomRate(8000);dkljds
-        roomRate= 8000;
-        // unsetInfo();
-        // setDormitoryInfo(true);
-        // setCapacity(10);
-        // setOccupancy(8);
-        // if (memberCount < occupancy) {dkljds
-        // setRoomResult(roomRate);
-        // }
-        // if(occupancy < memberCount < capacity) {
-        // setExtra(memberCount - occupancy);
-        // extra = memberCount - occupancy;
-        // setRoomResult(roomRate + extra * 500);
-        // } else { setRoomResult(0) }
+        // DORMITORY ROOMS
+        roomRate = 8000;
+        capacity = 10;
+        occupancy = 8;
 
     } else if (props.roomType === "Tree House") {
-        // setRoomRate(4000)
+        // TREE HOUSE
         roomRate = 4000;
-        // unsetInfo();
-        // setTreeHouseInfo(true);
-        // setCapacity(2);
-        // setOccupancy(2);
-        // if (memberCount < occupancy) {
-        // setRoomResult(roomRate);
-        // }
-        // if(occupancy < memberCount < capacity) {
-        // setExtra(memberCount - occupancy);
-        // extra = memberCount - occupancy;
-        // setRoomResult(roomRate + extra * 500);
-        // } else { setRoomResult(0) }
+        capacity = 2;
+        occupancy = 2;
     }
-    return(
+
+    if (props.count >= occupancy && props.count <= capacity) {
+        extra = props.count - occupancy;
+    }
+
+    return (
         <>
-        dion
-        {roomRate}
+            <label>Your Total cost will be  <h2>₹{roomRate}{'+'}₹{extra * 500}{'='}₹ <span className="text-orangered">{roomRate + extra * 500} </span> </h2></label>
+
         </>
     );
 }
@@ -83,25 +61,12 @@ export const PricingSection = () => {
     // integer values
     const [memberCount, setMemberCount] = useState(1);
     const [roomRate, setRoomRate] = useState(0);
-    const [capacity, setCapacity] = useState(0);
-    const [occupancy, setOccupancy] = useState(0);
-    const [roomResult, setRoomResult] = useState(0);
-    const [extra, setExtra] = useState(0);
-    // const extra = 0;
-    // 
+    // const [capacity, setCapacity] = useState(0);
+    // const [occupancy, setOccupancy] = useState(0);
+    // const [roomResult, setRoomResult] = useState(0);
+    // const [extra, setExtra] = useState(0);
 
-    // const calculateRoomCost = (memberCount, occupancy, roomRate, extra) => {
-
-    // }
-
-
-    const roomAction = (value) => {
-        setRoom(value);
-        
-
-    }
-
-    // unsetting for collapsible
+    // unset for collapsible
     function unsetInfo() {
         setDeluxInfo(false)
         setSuperDeluxInfo(false)
@@ -129,7 +94,7 @@ export const PricingSection = () => {
                             <div className="price mb-3">
                                 <label htmlFor="roomType">Room Type&nbsp; &nbsp;&nbsp; &nbsp;</label>
                                 <Select name="roomType" value={room} onChange={(e) => {
-                                    roomAction(e.target.value);
+                                    setRoom(e.target.value);
                                 }}>
                                     <option value="Select Room">Select Room</option>
                                     <option value="Delux">Delux</option>
@@ -140,7 +105,7 @@ export const PricingSection = () => {
                             </div>
                             <br />
                             <label htmlFor="memberCount">Number of Members&nbsp; &nbsp;&nbsp; &nbsp;</label>
-                            <Select name="memberCount" value={memberCount} onChange={(e) => { setMemberCount(e.target.value); roomAction(room) }}>
+                            <Select name="memberCount" value={memberCount} onChange={(e) => { setMemberCount(e.target.value); setRoom(room) }}>
                                 <option value={1}>1</option>
                                 <option value={2}>2</option>
                                 <option value={3}>3</option>
@@ -167,12 +132,10 @@ export const PricingSection = () => {
                         Calculate&nbsp;<FaCalculator></FaCalculator></Button> */}
                             <br />
                             <br />
-
-                            <label>Your Total cost will be  <h2>₹{roomRate}{'+'}₹{extra * 500}{'='}₹ <span className="text-orangered">{roomRate + extra * 500} </span> </h2></label>
-
                             {/* The CalculatedResult component will take props and return show the value */}
                             <CalculatedResult
-                            roomType={room}
+                                roomType={room}
+                                count={memberCount}
                             />
                             <ReactCollapseSimple isOpen={deluxInfo}>
                                 The Delux Room Costs ₹2500 for 2 people in AC Rooms and ₹2100 for Non-AC Rooms
