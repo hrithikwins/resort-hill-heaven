@@ -17,7 +17,10 @@ export const AboutSection = () => (
                     <p className="mb-4"><span role="img" aria-label="hotel">🏨</span>Heaven Hill Resort is an Agrotourism based resort in Boisar/Palghar District.
                   </p>
                     <ul className="list-unstyled  text-left success mb-5">
-                        <li><FaCheckSquare color="green" /> Amongst the Nature, Hills &amp; Natural Water Resources</li>
+                        <li><FaCheckSquare color="green" /> Amongst the Nature</li>
+                        <li><FaCheckSquare color="green" /> Surrounded by Hills</li>
+                        <li><FaCheckSquare color="green" /> Natural Water Resources</li>
+                        <li><FaCheckSquare color="green" /> Indigenous Plants &amp; animals</li>
                         <li><FaCheckSquare color="green" />  Accessible by all means</li>
                         <li><FaCheckSquare color="green" />  11 kms from Boisar</li>
                         <li><FaCheckSquare color="green" />  4kms away from NH 48</li>
