@@ -105,7 +105,7 @@ export const Navigation = () => {
                                                 <a href="/home#about-section" className="nav-link">About</a>
                                             </li>
                                             <li>
-                                                <a href="gallery" className="nav-link">Gallery</a>
+                                                <a href="/gallery" className="nav-link">Gallery</a>
                                             </li>
                                             <li><a href="/home#pricing-section" className="nav-link">Tariff</a></li>
                                             <li><a href="/home#faq-section" className="nav-link">FAQs</a></li>
