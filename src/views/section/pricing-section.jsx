@@ -66,7 +66,7 @@ const CalculatedResult = (props) => {
 
     return (
         <>
-            <label>Your Total cost will be  <h2>₹{roomRate}{'+'}₹{extra * 500}{'='}₹ <span className="text-orangered">{roomRate + extra * 500} </span> </h2></label>
+            <label>Your Total cost will be  <h2>₹{roomRate}{'+'}₹{extra * 500} {'='}<span className="text-orangered">₹{roomRate + extra * 500} </span> </h2></label>
         </>
     );
 }
