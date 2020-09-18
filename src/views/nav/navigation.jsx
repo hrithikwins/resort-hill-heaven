@@ -95,8 +95,6 @@ export const Navigation = () => {
                                                     {menuVisible ? 'X' : <FaBars />}</span>
                                             </div>
                                         </div>
-
-
                                         <ul className="site-menu main-menu js-clone-nav d-none d-lg-block">
                                             <li>
                                                 <a href="/home/#home-section" className="nav-link">Home</a>

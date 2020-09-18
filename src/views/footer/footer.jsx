@@ -78,13 +78,13 @@ export const Footer = () => (
                         <h4>Heaven Hill Resort <sup>TM</sup> <br /> All rights reserved. </h4>
                     </div>
                     <div className="team">
-                        <h4>Development Team: <a href="#">@hrithikrtiwari</a></h4>
+                        <h4>Development Team: <a href="https://www.instagram.com/hrithikrtiwari" target="_blank" rel="nofollow noopener noreferrer">@hrithikrtiwari</a></h4>
                     </div>
                 </div>
                 <div className="visitorcount">
                     <h4>Visitor Count:</h4>
                     <p>
-                        <a className="hitCounter" href="https://visitorshitcounter.com/" target="_blank" rel="nofollow noopener" title="Hit counter" data-name="456e2e9b6f5f4d3ae002b443f2522c2b|3|page|195|#000000|#f19494|small|s-hit">Hit Counter</a>
+                        <a className="hitCounter" href="https://visitorshitcounter.com/" target="_blank" rel="nofollow noopener noreferrer" title="Hit counter" data-name="456e2e9b6f5f4d3ae002b443f2522c2b|3|page|195|#000000|#f19494|small|s-hit">Hit Counter</a>
                     </p>
                 </div>
             </div>

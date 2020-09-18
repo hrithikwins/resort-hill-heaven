@@ -25,10 +25,10 @@ export const FaqSection = () => {
 
                             <div className="accordion-item">
                                 <h2 className="mb-0 rounded mb-2">
-                                    <a className="collapsed text-orangered" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onClick={() => setSwimming(!swimming)}>
+                                    <span className="collapsed text-orangered" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onClick={() => setSwimming(!swimming)}>
                                         <FaGreaterThan></FaGreaterThan>
                                         When we choose swimming, what all other services are included for us?
-                            </a>
+                            </span>
                                 </h2>
                                 <ReactCollapseSimple isOpen={swimming}>
                                     <div className="accordion-body">
@@ -44,10 +44,10 @@ export const FaqSection = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="mb-0 rounded mb-2">
-                                    <a className="collapsed text-orangered" onClick={() => setBirdWatching(!birdWatching)} data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span className="collapsed text-orangered" onClick={() => setBirdWatching(!birdWatching)} data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <FaGreaterThan></FaGreaterThan>
                                         Which is the perfect season for bird watching at Heaven Hill Resort?
-                            </a>
+                            </span>
                                 </h2>
                                 <ReactCollapseSimple isOpen={birdWatching}>
                                     <div className="accordion-body">
@@ -64,10 +64,10 @@ export const FaqSection = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="mb-0 rounded mb-2">
-                                    <a className="collapsed text-orangered" onClick={() => setPhotoshoot(!photoshoot)} data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span className="collapsed text-orangered" onClick={() => setPhotoshoot(!photoshoot)} data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <FaGreaterThan></FaGreaterThan>
                                         Are photoshoots allowed in Heaven Hill Resort?
-                            </a>
+                            </span>
                                 </h2>
                                 <ReactCollapseSimple isOpen={photoshoot}>
                                     <div className="accordion-body">
@@ -84,10 +84,10 @@ export const FaqSection = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="mb-0 rounded mb-2">
-                                    <a className="collapsed text-orangered" onClick={() => setTogether(!together)} data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span className="collapsed text-orangered" onClick={() => setTogether(!together)} data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <FaGreaterThan></FaGreaterThan>
                                         Can we have a day trekking, Night Campfires and Dormitory room together?
-                            </a>
+                            </span>
                                 </h2>
                                 <ReactCollapseSimple isOpen={together}>
                                     <div className="accordion-body">
@@ -100,10 +100,10 @@ export const FaqSection = () => {
                             </div>
                             <div className="accordion-item">
                                 <h2 className="mb-0 rounded mb-2">
-                                    <a className="collapsed text-orangered" onClick={() => setTrekking(!trekking)} data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span className="collapsed text-orangered" onClick={() => setTrekking(!trekking)} data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <FaGreaterThan></FaGreaterThan>
                                          Do we get trekking packages in your resort?
-                            </a>
+                            </span>
                                 </h2>
                                 <ReactCollapseSimple isOpen={trekking}>
                                     <div className="accordion-body">

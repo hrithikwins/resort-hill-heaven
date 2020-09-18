@@ -40,7 +40,7 @@ export const PricingChartSection = () => (
                             <td>6 People</td>
                         </tr>
                         <tr>
-                            <td rowspan="2">Dormitory</td>
+                            <td>Dormitory</td>
                             <td>24 hours</td>
                             <td>8 People</td>
                             <td>7200/-</td>
@@ -49,20 +49,13 @@ export const PricingChartSection = () => (
                             <td>10 People</td>
                         </tr>
                         <tr>
-                            <td>12 hours</td>
-                            <td>8 People</td>
-                            <td>4000/-</td>
-                            <td>3200/-</td>
-                            <td>300/-</td>
-                            <td>10 People</td>
-                        </tr>
-                        <tr>
                             <td>Tree House</td>
                             <td>Double Bed</td>
                             <td>2 People</td>
                             <td>4000/-</td>
                             <td>3500/-</td>
-                            <td colspan="2">Only 2 People </td>
+                            <td>600/-</td>
+                            <td>Only 2 People </td>
                         </tr>
                     </table>
                 </div>
