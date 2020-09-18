@@ -37,7 +37,7 @@ export const Navigation = () => {
                 <div><a href="/home/#home-section" className="menu-items" onClick={() => closeMenu()}><FaHome />&nbsp; Home</a></div><hr />
                 <div><a href="/home/#about-section" className="menu-items" onClick={() => closeMenu()}><FaInfo />&nbsp; About</a></div> <hr />
                 <div><a href="gallery" className="menu-items" onClick={() => closeMenu()}><FaPhotoVideo />&nbsp; Gallery</a></div> <hr />
-                <div><a href="/home/#pricing-section" className="menu-items" onClick={() => closeMenu()}><FaMoneyCheckAlt />&nbsp; Tariff</a></div> <hr />
+                <div><a href="/home/#pricing-chart-section" className="menu-items" onClick={() => closeMenu()}><FaMoneyCheckAlt />&nbsp; Tariff</a></div> <hr />
                 <div><a href="/home/#faq-section" className="menu-items" onClick={() => closeMenu()}><FaQuestion />&nbsp; FAQs</a></div> <hr />
                 <div><a href="/home/#contact-section" className="menu-items" onClick={() => closeMenu()}><FaLocationArrow />&nbsp; Contact</a></div>
             </ul>
@@ -105,7 +105,7 @@ export const Navigation = () => {
                                             <li>
                                                 <a href="/gallery" className="nav-link">Gallery</a>
                                             </li>
-                                            <li><a href="/home#pricing-section" className="nav-link">Tariff</a></li>
+                                            <li><a href="/home#pricing-chart-section" className="nav-link">Tariff</a></li>
                                             <li><a href="/home#faq-section" className="nav-link">FAQs</a></li>
                                             <li><a href="/home#contact-section" className="nav-link">Contact</a></li>
                                         </ul>
