@@ -7,7 +7,7 @@ export const PricingChartSection = () => (
                 <div className="row">
                     <div className="col-12 text-center">
                         <span className="sub-title">Pricing Chart</span>
-                        <h2 className="font-weight-bold mb-5">Tarrif Plans</h2>
+                        <h2 className="font-weight-bold mb-5 p-2">Tarrif Plans</h2>
                     </div>
                 </div>
             </div>
@@ -55,14 +55,14 @@ export const PricingChartSection = () => (
                             <td>4000/-</td>
                             <td>3500/-</td>
                             <td>600/-</td>
-                            <td>Only 2 People </td>
+                            <td>3 People </td>
                         </tr>
                     </table>
                 </div>
                 <br />
                 <br />
-                <div class="roomrates col-12 justify-center">
-                    <h2>Day Tariff Plans</h2>
+                <div class="roomrates">
+                    <h2>Day Tariff Plans at Heaven Hill Resort</h2>
                     <table border="2" id="roomRates">
                         <th>Room Type</th>
                         <th>Occupancy</th>
@@ -74,8 +74,8 @@ export const PricingChartSection = () => (
                             <td>Delux</td>
                             {/* <td>Double Bed</td> */}
                             <td>2 Members</td>
-                            <td>2400/-</td>
-                            <td>2100/-</td>
+                            <td>1800/-</td>
+                            <td>1600/-</td>
                             <td>500/-</td>
                             <td>4 Members</td>
                         </tr>
@@ -92,29 +92,30 @@ export const PricingChartSection = () => (
                             <td>Tree House</td>
                             {/* <td>Double Bed</td> */}
                             <td>2 Members</td>
-                            <td>4000/-</td>
                             <td>3500/-</td>
-                            <td colspan="2">Only 2 Members </td>
+                            <td>3000/-</td>
+                            <td>600/-</td>
+                            <td>3 Members </td>
                         </tr>
                     </table>
                 </div>
 
                 <div class="picnicRates">
-                    <h2>Group Picnics at Heaven Hill</h2>
+                    <h2>Group Picnics at Heaven Hill Resort</h2>
                     <table id="picnicRates">
-                        <th>One Day Package</th>
-                        <th>Adult Per head</th>
-                        <th>Child below 12years</th>
+                        <th className="text-center">Heaven Hill Day Package</th>
+                        <th className="text-center">Adult Per head</th>
+                        <th className="text-center">Child below 12years</th>
                         <tr>
-                            <td>
+                            <td className="text-center">
                                 Breakfast, Lunch, evening Snacks &amp; Swimming
-                        </td>
-                            <td>
+                            </td>
+                            <td className="text-center">
                                 800/-
-                        </td>
-                            <td>
+                            </td>
+                            <td className="text-center">
                                 700/-
-                        </td>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -123,24 +124,17 @@ export const PricingChartSection = () => (
                     <h2>Swimming at Heaven Hill Resort</h2>
 
                     <div class="packageInfo">
-
-                        <p>Entry Fees for Saturday , Sunday &amp; Holiday after 3:30 p.m </p>
+                        <p className="text-center">Entry Fees for Swimming at Heaven Hill Resort (2 hours)</p>
                     </div>
                     <div class="packageRates">
                         <table>
-                            <th>
-                                Adult
-                        </th>
-                            <th>
-                                Child
-                        </th>
                             <tr>
-                                <td>
-                                    300
-                            </td>
-                                <td>
-                                    200
-                            </td>
+                                <td className="text-center p-2">
+                                    Adult- ₹300/- per head
+                                </td>
+                                <td className="text-center p-2">
+                                    Child - ₹200/- per head
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -150,16 +144,16 @@ export const PricingChartSection = () => (
                     <h2>Night Camping in Tent House</h2>
                     <div class="packageInfo">
                         <p>Night Camping package includes Welcome Drink(Non- Alcoholic), Dinner,
-                        Veg/Non-Veg, Stays; Next Day Breakfast</p>
+                        Veg/Non-Veg,Night Stays; Farewell with Breakfast</p>
                         <span>Per Head: 1500/-</span>
                     </div>
                 </div>
 
                 <div class="moreRates">
-                    For more details regarding bookings and other informations
-                    please
-                <a href="booking-2.html">
-                        click here</a>
+                    For more details regarding bookings and other information
+                    please visit &nbsp;
+                <a href="/home">
+                         heavenhillagroresort.com</a>
                 </div>
             </section>
         </div>
