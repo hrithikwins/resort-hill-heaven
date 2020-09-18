@@ -1,5 +1,6 @@
 import React from 'react';
 import "./styles/contact-section.sass";
+import { TextField, Button } from '@material-ui/core';
 
 export const ContactSection = () => (
     <>
@@ -17,25 +18,30 @@ export const ContactSection = () => (
                         <form action="#" className="p-5 bg-white">
                             <div className="row form-group">
                                 <div className="col-md-12 mb-3 mb-md-0">
-                                    <label className="font-weight-bold" htmlFor="fullname">Full Name</label>
-                                    <input type="text" id="fullname" className="form-control" placeholder="Full Name" />
+                                    {/* <label className="font-weight-bold" htmlFor="fullname">Full Name</label>
+                                    <input type="text" id="fullname" className="form-control" placeholder="Full Name" /> */}
+                                    <TextField label="Full Name" name="full_name" variant="outlined" fullWidth></TextField>
                                 </div>
                             </div>
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <label className="font-weight-bold" htmlFor="email">Email</label>
-                                    <input type="email" id="email" className="form-control" placeholder="Email Address" />
+                                    {/* <label className="font-weight-bold" htmlFor="email">Email</label>
+                                    <input type="email" id="email" className="form-control" placeholder="Email Address" /> */}
+                                    <TextField label="Email Address" name="email_address" variant="outlined" fullWidth></TextField>
+
                                 </div>
                             </div>
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <label className="font-weight-bold" htmlFor="message">Message</label>
-                                    <textarea name="message" id="message" cols={30} rows={5} className="form-control" placeholder="Say hello to us" defaultValue={""} />
+                                    {/* <label className="font-weight-bold" htmlFor="message">Message</label> */}
+                                    {/* <textarea name="message" id="message" cols={30} rows={5} className="form-control" placeholder="Say hello to us" defaultValue={""} /> */}
+                                    <TextField label="Message" name="full_name" variant="outlined" fullWidth multiline></TextField>
+
                                 </div>
                             </div>
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <input type="submit" defaultValue="Send Message" className="btn btn-primary rounded-0 btn-lg" />
+                                    <Button variant="text" color="primary" type="submit">Submit</Button>
                                 </div>
                             </div>
                         </form>
