@@ -16,7 +16,7 @@ body {
 .blank-top{
     background: linear-gradient(180deg, black 90%, transparent );
     min-height: 120px;
-    width: 100vw;
+    width: 100%;
     display: block;
 }
 
@@ -725,6 +725,8 @@ h6 {
     background-position: top;
     background-attachment: fixed;
     background-image: url('images/sea-sharp.gif');
+    filter: contrast(1.1);
+    /* filter: hue-rotate(230deg) */
 }
 
 .site-blocks-cover.overlay {
