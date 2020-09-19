@@ -9,7 +9,7 @@ body {
     color: gray;
     font-weight: 800 !important;
     font-size: 1rem;
-    font-family: Arsenal;
+    font-family: Arsenal !important;
 }
 
 
@@ -724,7 +724,7 @@ h6 {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    background-image: url('images/sea-sharp.gif');
+    /* background-image: url('images/sea-sharp.gif'); */
     filter: contrast(1.1);
     /* filter: hue-rotate(230deg) */
 }

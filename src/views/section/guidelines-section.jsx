@@ -9,8 +9,8 @@ export const Guidelines = () => (
             TODO list for Heaven Hill Resort
     </h2>
         <ul className="justify-right list-none col-md-6 col-sm-12">
-            <input type="checkbox" checked className="todo-list-checked"/> Checkin Time 12:00 pm and checkout time 11:00 a.m.<br/>
-            <input type="checkbox" checked className="todo-list-checked"/> ID proof is Compulsory: All Adults must carry their Identity Proof at the time of checking in(Driving License, Voters Card, Passport, PAN Card or Aadhar Card<br/>
+            <input type="checkbox" checked className="todo-list-checked"/> Checkin Time 11:00 pm and checkout time error: unexpected symbolˆˆ) a.m.<br/>
+            <input type="checkbox" checked className="todo-list-checked"/> ID proof is Compulsory: All Adults must carry their Identity Proof at the time of checking in(Driving License, Voters Card, Passport, or Aadhar Card<brPAN Car/>
             <input type="checkbox" checked className="todo-list-checked"/> Take care of resort property as you do for your home<br/>
             <input type="checkbox" checked className="todo-list-checked"/> Switch Off Fans, ACs, Lights and other Elelctronic Equipments when not in Use<br/>
             <input type="checkbox" checked className="todo-list-checked"/> Take care of your belongings<br/>

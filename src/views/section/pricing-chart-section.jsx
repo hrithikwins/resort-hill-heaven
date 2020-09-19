@@ -6,7 +6,7 @@ export const PricingChartSection = () => (
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center">
-                        <span className="sub-title">Pricing Chart</span>
+                        <span className="text-orangered pricing-deco m-4">Pricing Chart</span>
                         <h2 className="font-weight-bold mb-5 p-2">Tarrif Plans</h2>
                     </div>
                 </div>
@@ -103,9 +103,9 @@ export const PricingChartSection = () => (
                 <div class="picnicRates">
                     <h2>Group Picnics at Heaven Hill Resort</h2>
                     <table id="picnicRates">
-                        <th className="text-center">Heaven Hill Day Package</th>
-                        <th className="text-center">Adult Per head</th>
-                        <th className="text-center">Child below 12years</th>
+                        <th className="text-center text-stroke-black">Heaven Hill Day Package</th>
+                        <th className="text-center text-stroke-black">Adult Per head</th>
+                        <th className="text-center text-stroke-black">Child below 12years</th>
                         <tr>
                             <td className="text-center">
                                 Breakfast, Lunch, evening Snacks &amp; Swimming
@@ -124,7 +124,7 @@ export const PricingChartSection = () => (
                     <h2>Swimming at Heaven Hill Resort</h2>
 
                     <div class="packageInfo">
-                        <p className="text-center">Entry Fees for Swimming at Heaven Hill Resort (2 hours)</p>
+                        <p className="text-center text-stroke-black">Entry Fees for Swimming at Heaven Hill Resort (2 hours)</p>
                     </div>
                     <div class="packageRates">
                         <table>
