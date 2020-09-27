@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logoImage from 'images/logo.jpg';
+import logoImage from 'images/logo.png';
 import '../nav/styles/nav.sass';
 import { FaEnvelope, FaPhoneAlt, FaBars, FaTwitter, FaFacebook, FaInstagram, FaHome, FaInfo, FaPhotoVideo, FaMoneyCheckAlt, FaQuestion, FaLocationArrow } from 'react-icons/fa';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../footer/footer.css";
-import logoImage from 'images/logo.jpg';
+import logoImage from 'images/logo-background-removed.png';
 import { FaInstagram, FaWhatsapp, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 export const Footer = () => (
@@ -8,16 +8,15 @@ export const Footer = () => (
     <div className="footerData">
       <div className="footerFlex">
         <div className="heavenHillFooter">
-          <aside className>
-            <div className>
+          <aside>
+            <div>
               <h3>Heaven Hill Resort</h3>
             </div>
-            <div className>
+            <div>
               <img
                 style={{
                   width: "100%",
                   display: "inline",
-                  "box-shadow": "inset 2px 2px 10px 10px #000f",
                 }}
                 src={logoImage}
                 alt="logoImage"

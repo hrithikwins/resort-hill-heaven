@@ -1,18 +1,18 @@
 import React from "react";
-import logoImage from 'images/logo.jpg';
+// import logoImage from "images/logo.png";
+import logoImage from "images/logo-background-removed.png";
 import '../header/styles/banner.sass';
 import Video from "images/sea-sharp.webm";
 import Video1 from "images/sea-sharp.mkv";
-import Video2 from "images/sea-background.mp4";
-
+import Video2 from "images/sea-sharp.mp4";
+import heroBg from 'images/hero_bg_1.jpeg';
 export const Banner = () => (
   <>
     <div class="fullscreen-bg">
-      <video autoplay={true} loop={true} class="fullscreen-bg__video">
-        <source src={Video} type="video/webm" />
-        <source src={Video1} type="video/mkv" />
-        <source src={Video2} type="video/mp4" />
-      </video>
+      {/* <video autoplay={true} loop={true} class="fullscreen-bg__video">
+        <source src={Video2} />
+      </video> */}
+      <img src={heroBg} alt="background"/>
     </div>
     <div
       className="site-blocks-cover overlay"

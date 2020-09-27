@@ -1,15 +1,14 @@
 import React from 'react';
-import heroBg from 'images/hero_bg_1.jpeg';
 import garden from 'images/introductiongallery/garden.jpg';
-import garden1 from "images/introductiongallery/garden1.jpg";
 import nightmode from "images/introductiongallery/nightmode.jpg";
+import garden1 from "images/introductiongallery/garden1.jpg";
 import { Link } from 'react-router-dom';
 import {  FaCheckSquare } from 'react-icons/fa';
 import { Slide} from "react-slideshow-image";
 import "./styles/about-section.sass";
 
 
-const images = [heroBg, garden, garden1, nightmode];
+const images = [garden, garden1, nightmode];
  
 
 export const AboutSection = () => (
