@@ -1,5 +1,5 @@
 import React from 'react';
-import OctopusRainDance from "images/gallery/img2.jpg";
+import OctopusRainDance from "images/gallery/img11.jpg";
 import picnicSpot from "images/features/picnic.jpg";
 import rooms from "images/rooms/european.jpg";
 import groupEntries from "images/features/group-entries.jpg";

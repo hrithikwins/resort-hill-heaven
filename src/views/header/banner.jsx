@@ -1,18 +1,12 @@
 import React from "react";
-// import logoImage from "images/logo.png";
-import logoImage from "images/logo-background-removed.png";
-import '../header/styles/banner.sass';
-import Video from "images/sea-sharp.webm";
-import Video1 from "images/sea-sharp.mkv";
-import Video2 from "images/sea-sharp.mp4";
-import heroBg from 'images/hero_bg_1.jpeg';
+import logoImage from "images/logo.png";
+import heroBg from "images/hero_bg_1.jpeg";
+import "../header/styles/banner.sass";
+
 export const Banner = () => (
   <>
     <div class="fullscreen-bg">
-      {/* <video autoplay={true} loop={true} class="fullscreen-bg__video">
-        <source src={Video2} />
-      </video> */}
-      <img src={heroBg} alt="background"/>
+      <img src={heroBg} alt="background" />
     </div>
     <div
       className="site-blocks-cover overlay"
@@ -29,8 +23,9 @@ export const Banner = () => (
               href="#home"
               className="play-button d-block"
             >
-              <img src={logoImage} alt="logo" className="banner-img" />
+                <img src={logoImage} alt="logo" className="banner-img" />
             </a>
+
             <h1 className="text-uppercase bubblegum-font">
               Heaven Hill Resort
             </h1>

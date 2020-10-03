@@ -6,7 +6,6 @@ import ConferenceHall from 'images/rooms/conference_room.jpg';
 import European from 'images/rooms/european.jpg';
 import French from 'images/rooms/french.jpg';
 import TreeHouse from 'images/rooms/tree-house.jpg';
-import { Link } from 'react-router-dom';
 
 export const RoomsSection = () => (
     <div className="site-section" id="rooms-section">

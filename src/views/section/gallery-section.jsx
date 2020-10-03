@@ -29,16 +29,16 @@ import gallery24 from 'images/gallery/img24.jpg';
 import gallery25 from 'images/gallery/img25.jpg';
 import gallery26 from 'images/gallery/img26.jpg';
 import gallery27 from 'images/gallery/img27.jpg';
-import gallery28 from 'images/gallery/img28.jpg';
-import gallery29 from 'images/gallery/img29.jpg';
-import gallery30 from 'images/gallery/img30.jpg';
-import gallery31 from 'images/gallery/img31.jpg';
-import gallery32 from 'images/gallery/img32.jpg';
-import gallery33 from 'images/gallery/img33.jpg';
-import gallery34 from 'images/gallery/img34.jpg';
-import gallery35 from 'images/gallery/img35.jpg';
-import gallery36 from 'images/gallery/img36.jpg';
-import gallery37 from 'images/gallery/img37.jpg';
+// import gallery28 from 'images/gallery/img28.jpg';
+// import gallery29 from 'images/gallery/img29.jpg';
+// import gallery30 from 'images/gallery/img30.jpg';
+// import gallery31 from 'images/gallery/img31.jpg';
+// import gallery32 from 'images/gallery/img32.jpg';
+// import gallery33 from 'images/gallery/img33.jpg';
+// import gallery34 from 'images/gallery/img34.jpg';
+// import gallery35 from 'images/gallery/img35.jpg';
+// import gallery36 from 'images/gallery/img36.jpg';
+// import gallery37 from 'images/gallery/img37.jpg';
 
 export const GallerySection = () => (
     
@@ -68,7 +68,6 @@ export const GallerySection = () => (
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery17} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery18} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery19} /></div>
-            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery36} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery20} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery21} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery22} /></div>
@@ -76,7 +75,8 @@ export const GallerySection = () => (
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery24} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery25} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery26} /></div>
-            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery27} /></div>
+             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery27} /></div>
+            {/*<div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery36} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery28} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery37} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery29} /></div>
@@ -85,7 +85,7 @@ export const GallerySection = () => (
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery32} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery33} /></div>
             <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery34} /></div>
-            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery35} /></div>
+            <div className="col-md-4 col-sm-12"><img alt="gallery" src={gallery35} /></div> */}
         </div>
         <Link to="gallery/index.html">View More Images</Link>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../footer/footer.css";
-import logoImage from 'images/logo-background-removed.png';
+import logoImage from 'images/logo.png';
 import { FaInstagram, FaWhatsapp, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 export const Footer = () => (
@@ -152,7 +152,7 @@ export const Footer = () => (
                 >
                   <a
                     href="http://visitorshitcounter.com"
-                    rel="nofollow noopener"
+                    rel="nofollow noopener noreferrer"
                     target="_blank"
                     title="https://visitorshitcounter.com/"
                   >

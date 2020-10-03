@@ -1,20 +1,26 @@
 import React from 'react';
 import "../section/styles/rates.sass";
 export const PricingChartSection = () => (
-    <>
-        <div className="site-section" id="pricing-chart-section">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 text-center">
-                        <span className="text-orangered pricing-deco m-4">Pricing Chart</span>
-                        <h2 className="font-weight-bold mb-5 p-2">Tarrif Plans</h2>
-                    </div>
-                </div>
-            </div>
-            <section id="rates" className="col-12 justify-center">
-                <div class="roomrates col-12 justify-center">
-                    <h2>Visitor stays at Heaven Hill Resort</h2>
-                    <table border="2" id="roomRates">
+  <>
+    <div className="site-section" id="pricing-chart-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 text-center">
+            <span className="text-orangered pricing-deco m-4">
+              Pricing Chart
+            </span>
+            <h2 className="font-weight-bold mb-5 p-2">Tarrif Plans</h2>
+          </div>
+        </div>
+      </div>
+      <section id="rates" className="col-12 justify-center">
+        <div class="roomrates col-12 justify-center">
+          <h2>Visitor stays at Heaven Hill Resort</h2>
+          {/* <span>
+          <iframe title="room tariff" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vThHtol5-9OfVOMAMJRDko-UlkUaK1JhVzQbtT-6eTHSQdB1I_mzoD1OFs4EFv6EzUJu3OZ7MuWo7YJ/pubhtml?gid=0&amp;single=false&amp;widget=false&amp;headers=false"></iframe>
+          </span> */}
+
+          <table border="2" id="roomRates">
                         <th colspan="2">Room Type</th>
                         <th>Occupancy</th>
                         <th>A/c</th>
@@ -58,12 +64,12 @@ export const PricingChartSection = () => (
                             <td>3 People </td>
                         </tr>
                     </table>
-                </div>
-                <br />
-                <br />
-                <div class="roomrates">
-                    <h2>Day Tariff Plans at Heaven Hill Resort</h2>
-                    <table border="2" id="roomRates">
+        </div>
+        <br />
+        <br />
+        <div class="roomrates">
+          <h2>Day Tariff Plans at Heaven Hill Resort</h2>
+          <table border="2" id="roomRates">
                         <th>Room Type</th>
                         <th>Occupancy</th>
                         <th>A/c</th>
@@ -72,7 +78,6 @@ export const PricingChartSection = () => (
                         <th>Capacity</th>
                         <tr>
                             <td>Delux</td>
-                            {/* <td>Double Bed</td> */}
                             <td>2 Members</td>
                             <td>1800/-</td>
                             <td>1600/-</td>
@@ -81,7 +86,6 @@ export const PricingChartSection = () => (
                         </tr>
                         <tr>
                             <td>Dormitory</td>
-                            {/* <td>12 hours</td> */}
                             <td>8 Members</td>
                             <td>4000/-</td>
                             <td>3200/-</td>
@@ -90,7 +94,6 @@ export const PricingChartSection = () => (
                         </tr>
                         <tr>
                             <td>Tree House</td>
-                            {/* <td>Double Bed</td> */}
                             <td>2 Members</td>
                             <td>3500/-</td>
                             <td>3000/-</td>
@@ -98,64 +101,63 @@ export const PricingChartSection = () => (
                             <td>3 Members </td>
                         </tr>
                     </table>
-                </div>
-
-                <div class="picnicRates">
-                    <h2>Group Picnics at Heaven Hill Resort</h2>
-                    <table id="picnicRates">
-                        <th className="text-center text-stroke-black">Heaven Hill Day Package</th>
-                        <th className="text-center text-stroke-black">Adult Per head</th>
-                        <th className="text-center text-stroke-black">Child below 12years</th>
-                        <tr>
-                            <td className="text-center">
-                                Breakfast, Lunch, evening Snacks &amp; Swimming
-                            </td>
-                            <td className="text-center">
-                                800/-
-                            </td>
-                            <td className="text-center">
-                                700/-
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="poolRates">
-                    <h2>Swimming at Heaven Hill Resort</h2>
-
-                    <div class="packageInfo">
-                        <p className="text-center text-stroke-black">Entry Fees for Swimming at Heaven Hill Resort (2 hours)</p>
-                    </div>
-                    <div class="packageRates">
-                        <table>
-                            <tr>
-                                <td className="text-center p-2">
-                                    Adult- ₹300/- per head
-                                </td>
-                                <td className="text-center p-2">
-                                    Child - ₹200/- per head
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-
-                <div class="campingRates">
-                    <h2>Night Camping in Tent House</h2>
-                    <div class="packageInfo">
-                        <p>Night Camping package includes Welcome Drink(Non- Alcoholic), Dinner,
-                        Veg/Non-Veg,Night Stays; Farewell with Breakfast</p>
-                        <span>Per Head: 1500/-</span>
-                    </div>
-                </div>
-
-                <div class="moreRates">
-                    For more details regarding bookings and other information
-                    please visit &nbsp;
-                <a href="/home">
-                         heavenhillagroresort.com</a>
-                </div>
-            </section>
         </div>
-    </>
+
+        <div class="picnicRates">
+          <h2>Group Picnics at Heaven Hill Resort</h2>
+          <table id="picnicRates">
+            <th className="text-center text-stroke-black">
+              Heaven Hill Day Package
+            </th>
+            <th className="text-center text-stroke-black">Adult Per head</th>
+            <th className="text-center text-stroke-black">
+              Child below 12years
+            </th>
+            <tr>
+              <td className="text-center">
+                Breakfast, Lunch, evening Snacks &amp; Swimming
+              </td>
+              <td className="text-center">800/-</td>
+              <td className="text-center">700/-</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="poolRates">
+          <h2>Swimming at Heaven Hill Resort</h2>
+
+          <div class="packageInfo">
+            <p className="text-center text-stroke-black">
+              Entry Fees for Swimming at Heaven Hill Resort (2 hours)
+            </p>
+          </div>
+          <div class="packageRates">
+            <table>
+              <tr>
+                <td className="text-center p-2">Adult- ₹300/- per head</td>
+                <td className="text-center p-2">Child - ₹200/- per head</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="campingRates">
+          <h2>Night Camping in Tent House</h2>
+          <div class="packageInfo">
+            <p>
+              Night Camping package includes Welcome Drink(Non- Alcoholic),
+              Dinner, Veg/Non-Veg,Night Stays; Farewell with Breakfast
+            </p>
+            <span>Per Head: 1500/-</span>
+          </div>
+        </div>
+
+        <div class="moreRates">
+          For more details regarding bookings and other information please visit
+          &nbsp;
+          <a href="/home">heavenhillagroresort.com</a>
+        </div>
+      </section>
+    </div>
+  </>
 );
