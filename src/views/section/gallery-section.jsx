@@ -15,10 +15,10 @@ import gallery10 from 'images/gallery/img10.jpg';
 import gallery11 from 'images/gallery/img11.jpg';
 import gallery12 from 'images/gallery/img12.jpg';
 import gallery13 from 'images/gallery/img13.jpg';
-import gallery14 from 'images/gallery/img14.jpg';
-import gallery15 from 'images/gallery/img15.jpg';
-import gallery16 from 'images/gallery/img16.jpg';
-import gallery17 from 'images/gallery/img17.jpg';
+import gallery14 from 'images/gallery/delux1.jpeg';
+import gallery15 from 'images/gallery/delux2.jpeg';
+import gallery16 from 'images/gallery/delux3.jpeg';
+import gallery17 from 'images/gallery/delux4.jpeg';
 import gallery18 from 'images/gallery/img18.jpg';
 import gallery19 from 'images/gallery/img19.jpg';
 import gallery20 from 'images/gallery/img20.jpg';
@@ -46,7 +46,7 @@ export const GallerySection = () => (
         <div className="col-md-12 text-center">
             <span className="sub-title">Images from heaven hill resort</span>
             <h2 className="font-weight-bold text-black">Featured Clicks</h2>
-            <p className="mb-5">Collection of some best of the images of Heaven Hill Resort received from visitors.</p>
+            <p className="mb-5">Collection of some best images of Heaven Hill Resort received from visitors.</p>
         </div>
         <div className="gallery-container row">
             <div className="col-md-4 col-sm-12"><img alt="gallery1" src={gallery1} /></div>
