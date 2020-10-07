@@ -49,8 +49,8 @@ export const PricingChartSection = () => (
                             <td>Dormitory</td>
                             <td>24 hours</td>
                             <td>8 People</td>
-                            <td>7200/-</td>
                             <td>6400/-</td>
+                            <td>5600/-</td>
                             <td>500/-</td>
                             <td>10 People</td>
                         </tr>
