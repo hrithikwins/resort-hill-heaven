@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { FaCheckSquare } from "react-icons/fa";
 import { Slide } from "react-slideshow-image";
 import "./styles/about-section.sass";
-import Rosa from 'react-on-scroll-animation';
+import div from 'react-on-scroll-animation';
 const images = [garden, garden1, nightmode];
 
 export const AboutSection = () => (
@@ -39,39 +39,39 @@ export const AboutSection = () => (
           </p>
           <ul className="list-unstyled  text-left success mb-5">
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
                 <FaCheckSquare color="green" /> Amongst the Nature
-              </Rosa>
+              </div>
             </li>
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
                 <FaCheckSquare color="green" /> Surrounded by Hills
-              </Rosa>
+              </div>
             </li>
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
               <FaCheckSquare color="green" /> Natural Water Resources
-              </Rosa>
+              </div>
             </li>
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
               <FaCheckSquare color="green" /> Indigenous Plants &amp; animals
-              </Rosa>
+              </div>
             </li>
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
               <FaCheckSquare color="green" /> Accessible by all means
-              </Rosa>
+              </div>
             </li>
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
               <FaCheckSquare color="green" /> 11 kms from Boisar
-              </Rosa>
+              </div>
             </li>
             <li>
-              <Rosa animation="slide-up" duration={100} delay={100}>
+              <div>
               <FaCheckSquare color="green" /> 4kms away from NH 48
-              </Rosa>
+              </div>
             </li>
           </ul>
           <p>

@@ -116,11 +116,14 @@ export const AboutPage = () => (
           </div>
         </div>
       </div>
-      <div id="youtube-placeholder" className="row">
-        <h1>Watch Heaven Hill Resort's Youtube Videos</h1>
-         <div id="youtube-videos" className="col-md-4 p-1 "><iframe src="https://www.youtube.com/embed/DqNenlPtXUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      <div id="youtube-videos" className="col-md-4 p-1 "><iframe src="https://www.youtube.com/embed/HCGk9ISywo8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      <div id="youtube-videos" className="col-md-4 p-1 "><iframe src="https://www.youtube.com/embed/CehtZFq_uvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div>
+        <h1 className="text-center p-2">Watch Heaven Hill Resort's Youtube Videos</h1>
+        <div className="row">
+
+         <div id="youtube-videos" className="col-md-4 p-4 "><iframe src="https://www.youtube.com/embed/DqNenlPtXUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div id="youtube-videos" className="col-md-4 p-4 "><iframe src="https://www.youtube.com/embed/HCGk9ISywo8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div id="youtube-videos" className="col-md-4 p-4 "><iframe src="https://www.youtube.com/embed/CehtZFq_uvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
       <div id="heaven-hill-map" className="text-center">
         
       </div>

@@ -31,7 +31,7 @@ export const PricingChartSection = () => (
                             <td>Delux</td>
                             <td>Double Bed</td>
                             <td>2 People</td>
-                            <td>2400/-</td>
+                            <td>2500/-</td>
                             <td>2100/-</td>
                             <td>500/-</td>
                             <td>4 People</td>
@@ -58,8 +58,9 @@ export const PricingChartSection = () => (
                             <td>Tree House</td>
                             <td>Double Bed</td>
                             <td>2 People</td>
-                            <td>4000/-</td>
-                            <td>3500/-</td>
+                            <td
+                            colSpan="2"
+                            >4500/-</td>
                             <td>600/-</td>
                             <td>3 People </td>
                         </tr>

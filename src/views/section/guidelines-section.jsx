@@ -3,7 +3,7 @@ import { FaRegDotCircle } from 'react-icons/fa';
 import '../../../src/views/section/styles/guidelines-section.sass';
 export const Guidelines = () => (
     <>
-    <div className="row m-5">
+    <div className="row m-5 d-none">
         <div className="col-md-6 row">
         <h2 className="col-md-12 row">
             TODO list for Heaven Hill Resort
