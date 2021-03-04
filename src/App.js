@@ -1,4 +1,4 @@
-import React, { Suspense} from "react";
+import React, { Suspense, useEffect } from "react";
 import { Navigation } from "./views/nav/navigation";
 import { TopNav } from "./views/nav/top-nav";
 import { Banner } from "./views/header/banner";
@@ -13,6 +13,7 @@ import { Footer } from "./views/footer/footer";
 import { PricingSection } from "./views/section/pricing-section";
 import { GallerySection } from "./views/section/gallery-section";
 import "./App.css";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -22,10 +23,16 @@ import {
 import { Guidelines } from "views/section/guidelines-section";
 import { AboutPage } from "views/pages/about-page";
 import ScrollToTop from "views/pages/scroll-to-top";
-import { SocialSection } from "views/section/social-section";
+import useSound from "use-sound";
+import backgroundMusic from "../src/songs/bensound-tenderness.mp3";
+// import { SocialSection } from "views/section/social-section";
 
 // const GallerySection = React.lazy(() => import("views/section/gallery-section.jsx"));
 function App() {
+  const [play] = useSound(backgroundMusic, { volume: 0.7 });
+  useEffect(() => {
+    play();
+  }, []);
   return (
     <>
       <div className="site-wrap">
@@ -45,8 +52,12 @@ function App() {
                 <Navigation />
                 <Banner />
                 <div className="marquee">
-                  <p className="text-orangered" ><span aria-label="warning">⚠</span>Due to COVID 19 safety
-                  measures, outside food &amp; Drinks are not allowed. Please bring a valid id-proof (containing address) when you visit Heaven Hill Resort</p>
+                  <p className="text-orangered">
+                    <span aria-label="warning">⚠</span>Due to COVID 19 safety
+                    measures, outside food &amp; Drinks are not allowed. Please
+                    bring a valid id-proof (containing address) when you visit
+                    Heaven Hill Resort
+                  </p>
                 </div>
                 <AboutSection />
                 <FeaturesSection />
