@@ -1,51 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap')
 
 .bubblegum-font
     font-family: Bubblegum Sans
-    
-.banner-img
-    height: 120%
-
-.banner-background-gif
-    background-image: url('../../../images/hero_bg_1.jpeg')
-    background-repeat: none
+.masthead
+    background-image: url("../../../images/artistic-sunset.jpg")
     background-size: cover
+    background-repeat: no-repeat
     background-attachment: fixed
-    height: 100vh
-    width: 100%
-    overflow: hidden
-    margin: 0px
-    padding: 0px
+    background-position: center
+.brand-heading
+    font-family: Aladin, cursive
+    font-size: 450%
+    font-weight: 900
+    color: white
+.intro-text
+    color: white
+    font-size: 150%
+.intro-container
+    background: #ffffff41
+    box-shadow: 2px 2px 10px 20px #aca8a841
+    padding: 50px 0px
+@keyframes jumpingText
+    0%
+        position: relative
+        top: -240px
+        color: orange
+        transform: rotate(0deg)
+        text-shadow: 1px 1px 40px red
+        visibility: hidden
+        opacity: 0.2
+    100%
+        transform: rotate(20deg)
+        position: relative
+        top: 10px
+        color: white
+        text-shadow: 0px 0px 0px 0px #fff
+        visibility: visible
+        opacity: 1
+@keyframes bookNow
+    0%
+        border-radius: 10px 2px 4px 20px
+    20%
+        border-radius: 5px 8px 6px 5px
+    40%
+        border-radius: 12px 16px 2px 10px
+    60%
+        border-radius: 20px 10px 20px 2px
+    80%
+        border-radius: 5px 8px 6px 5px
+    100%
+        border-radius: 20px 6px 8px 10px
 
-.fullscreen-bg
-    position: absolute
-    top: 0
-    right: 0
-    bottom: 0
-    left: 0
-    overflow: hidden
-    z-index: -100
-
-
-.fullscreen-bg__video
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-
-
-@media (min-aspect-ratio: 16/9)
-    .fullscreen-bg__video
-        width: 100%
-        height: auto
-  
-
-
-@media (max-aspect-ratio: 16/9)
-    .fullscreen-bg__video
-        width: auto
-        height: 100%
-  
-
-// added comments for this repo
+.jumping-text-container
+    position: relative
+    text-shadow: 1px 1px 10px orangered
+    .n-1
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 2s 1 ease-in
+    .n-2
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 2.1s 1 ease-in
+    .n-3
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 2.3s 1 ease-in
+    .n-4
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 2.5s 1 ease-in
+    .n-5
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 2.7s 1 ease-in
+    .n-6
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 2.9s 1 ease-in
+    .n-7
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 3.1s 1 ease-in
+    .n-8
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 3.3s 1 ease-in
+    .n-9
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 3.5s 1 ease-in
+    .n-10
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 3.7s 1 ease-in
+    .n-11
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 3.9s 1 ease-in
+    .n-12
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 4.1s 1 ease-in
+    .n-13
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 4.3s 1 ease-in
+    .n-14
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 4.5s 1 ease-in
+    .n-15
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 4.7s 1 ease-in
+    .n-16
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 4.9s 1 ease-in
+    .n-17
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 5.1s 1 ease-in
+    .n-18
+        position: relative
+        top: -250px
+        visibility: hidden
+        animation: jumpingText 2s forwards 5.3s 1 ease-in
+.glass-blue-btn
+    background: #0d11fb23
+    outline: none
+    border: none
+    padding: 12px 20px
+    color: white
+    animation: bookNow 2s alternate infinite
+    box-shadow: 2px 2px 4px 4px #c6c7fa9a
+    &:focus,&:hover
+        border: none
+        outline: none
+        box-shadow: none
+// for mobile devices
+@media screen and ( max-width: 750px )
+    .brand-heading
+        font-size: 190%
+    .intro-container
+        padding: 10px 0px
+        font-size: 90%
+    .intro-text
+        font-size: 90%
+    .n-1,.n-2,.n-3,.n-4,.n-5,.n-6,.n-7,.n-8,.n-9,.n-10,.n-11,.n-12,.n-13,.n-14,.n-15,.n-16,.n-17,.n-18
+        top: -100px
