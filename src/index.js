@@ -5,7 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.css";
 import "react-slideshow-image/dist/styles.css";
-import "react-on-scroll-animation/build/index.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 ReactDOM.render(
   <React.StrictMode>
