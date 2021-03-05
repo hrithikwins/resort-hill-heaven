@@ -115,36 +115,7 @@
         padding: 10px;
         justify-content: center;
         align-items: center;
-    }
-    .siteData .client {
-        float: left;
-        /*display: flex*/
-        justify-content: left;
-        align-content: center;
-        padding-bottom: 30px;
-        width: 50%;
-        font-size: 40%;
-    }
-    .siteData .team {
-        float: right;
-        padding-bottom: 30px;
-        display: flex;
-        justify-content: right;
-        width: 50%;
-        font-size: 50%;
-    }
-    .visitorcount {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 80%;
-    }
-    .visitorcount h4 {
-        z-index: 0;
-    }
-    .visitorcount p .hitCounter {
-        z-index: -1;
+        font-size: 20% !important
     }
 }
 
