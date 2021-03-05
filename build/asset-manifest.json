@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff0d20a6.chunk.css",
-    "main.js": "/static/js/main.ab8e63df.chunk.js",
-    "main.js.map": "/static/js/main.ab8e63df.chunk.js.map",
+    "main.css": "/static/css/main.5f390831.chunk.css",
+    "main.js": "/static/js/main.45fe4840.chunk.js",
+    "main.js.map": "/static/js/main.45fe4840.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7a99b159.js",
     "runtime-main.js.map": "/static/js/runtime-main.7a99b159.js.map",
     "static/css/2.3a4df6ec.chunk.css": "/static/css/2.3a4df6ec.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.d196e77a.chunk.js.map": "/static/js/2.d196e77a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3a4df6ec.chunk.css.map": "/static/css/2.3a4df6ec.chunk.css.map",
-    "static/css/main.ff0d20a6.chunk.css.map": "/static/css/main.ff0d20a6.chunk.css.map",
+    "static/css/main.5f390831.chunk.css.map": "/static/css/main.5f390831.chunk.css.map",
     "static/js/2.d196e77a.chunk.js.LICENSE.txt": "/static/js/2.d196e77a.chunk.js.LICENSE.txt",
     "static/media/about-food.d3eb729e.jpeg": "/static/media/about-food.d3eb729e.jpeg",
     "static/media/banner.sass": "/static/media/artistic-sunset.5074e0a8.jpg",
@@ -64,7 +64,7 @@
     "static/js/runtime-main.7a99b159.js",
     "static/css/2.3a4df6ec.chunk.css",
     "static/js/2.d196e77a.chunk.js",
-    "static/css/main.ff0d20a6.chunk.css",
-    "static/js/main.ab8e63df.chunk.js"
+    "static/css/main.5f390831.chunk.css",
+    "static/js/main.45fe4840.chunk.js"
   ]
 }
