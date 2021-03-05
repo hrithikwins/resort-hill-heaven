@@ -14,8 +14,8 @@ export const ContactSection = () => (
             <p className="mb-5">Heaven Hill Resort is easy.</p>
           </div>
         </div>
-        <div className="container">
-          <div className="wrapper">
+        <div className="container d-flex">
+          <div className="wrapper d-flex flex-column flex-md-row">
             {/* COMPANY INFORMATION */}
             <div className="company-info">
               <h3>Heaven Hill Resort</h3>
@@ -41,27 +41,28 @@ export const ContactSection = () => (
               <div className="row">
                 <div className="col-md-12 col-lg-12">
                   <form action="#" className="bg-white">
-                    <div className="col-md-12 mb-3 mb-md-0">
+                    <div className="col-md-12 mb-3 mb-md-0 d-flex flex-column w-100 justify-content-center align-content-center align-items-center pl-md-5">
+                        <br/>
                       <TextField
                         label="Full Name"
                         name="full_name"
                         variant="outlined"
                         fullWidth
-                      ></TextField>
+                      ></TextField><br/>
                       <br />
                       <TextField
                         label="Email Address"
                         name="email_address"
                         variant="outlined"
                         fullWidth
-                      ></TextField>
+                      ></TextField><br/><br/>
                       <TextField
                         label="Message"
                         name="full_name"
                         variant="outlined"
                         fullWidth
                         multiline
-                      ></TextField>
+                      ></TextField><br/><br/>
                       <Button variant="text" color="primary" type="submit">
                         Submit
                       </Button>

@@ -9,7 +9,7 @@ import vegNonVeg from "images/features/veg-non-veg.jpg";
 export const FeaturesSection = () => (
   <div className="site-section" id="features-section">
     <div className="container">
-      <div className="row justify-content-center">
+      <div className="row text-center justify-content-center">
         <div className="col-md-7 text-center">
           <span className="sub-title">Features of Heaven Hill Resort</span>
           <h2 className="font-weight-bold text-black">
@@ -22,7 +22,7 @@ export const FeaturesSection = () => (
           </p>
         </div>
       </div>
-      <div className="row">
+      <div className="row text-center">
         <div className="col-lg-4 col-md-6 mb-5">
           <div className="media custom-media">
             <div className="mr-3 icon">

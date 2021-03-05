@@ -58,7 +58,7 @@
 .contact form textarea 
     width: 100%
     padding: 1em
-    border: solid 1px #627EDC
+    border: none
     border-radius: 4px
 
 
@@ -67,7 +67,7 @@
 
 
 .contact form button 
-    background: #627EDC
+    background: #f39b36
     border: 0
     color: #e4e4e4
     text-transform: uppercase
@@ -87,26 +87,36 @@
 /* MEDIA QUERIES */
 /* ------------- */
 
-@media only screen and (min-width: 700px) 
-    .wrapper 
-        display: grid
-        grid-template-columns: 1fr 2fr
-    
-
-    .wrapper > * 
-        padding: 2em
-    
-
+@media only screen and (max-width: 700px) 
     .company-info 
         border-radius: 4px 0 0 4px
     
 
     .contact 
         border-radius: 0 4px 4px 0
+        margin: 0
+        padding: 4px
     
 
     .company-info h3,
     .company-info ul,
     .brand 
         text-align: left
+
     
+
+@media only screen and (min-width: 700px) 
+    .company-info 
+        border-radius: 4px 0 0 4px
+    
+
+    .contact 
+        border-radius: 0 4px 4px 0
+        margin: 0
+        padding: 4px
+    
+
+    .company-info h3,
+    .company-info ul,
+    .brand 
+        text-align: left
