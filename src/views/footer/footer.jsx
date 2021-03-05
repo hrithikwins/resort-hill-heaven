@@ -1,6 +1,7 @@
 import React from 'react';
 import "../footer/footer.css";
 import logoImage from 'images/logo.png';
+import WebDux from "images/webdux.png";
 import { FaInstagram, FaWhatsapp, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 export const Footer = () => (
@@ -86,7 +87,7 @@ export const Footer = () => (
     </div>
     <div className="bottomInfo">
       <div className>
-        <div className="socialIcons">
+        <div className="socialIcons py-md-4">
           <div className="insta">
             <a href="https://www.instagram.com/heaven_hill_resort">
               <FaInstagram />
@@ -108,82 +109,29 @@ export const Footer = () => (
             </a>
           </div>
         </div>
-        <div className="siteData">
-          <div className="client">
-            <h4>
+        <div className="siteData d-flex justify-content-around text-white ">
+          <div>
+            <h4 className="text-white">
               Heaven Hill Resort <sup>TM</sup> <br /> All rights reserved.{" "}
             </h4>
           </div>
-          <div className="team">
-            <h4>
-              Development Team:{" "}
+          <div>
+            <h4 className="text-white">
+              Developed By:
               <a
-                href="https://www.instagram.com/hrithikrtiwari"
+                href="https://www.webdux.tech"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
+                className="bg-white p-4"
               >
-                @hrithikrtiwari
+                <img
+                  src={WebDux}
+                  alt="Developed by WebDux Tech"
+
+                />
               </a>
             </h4>
           </div>
-        </div>
-        <div className="visitorcount">
-          <h4>Visitor Count:</h4>
-          <p>
-            {/* Badge Code - Do Not Change The Code */}
-            <div className="col-xs-12 mt20" id="bg">
-              <div
-                style={{
-                  margin: "0px auto",
-                  width: "133px",
-                  backgroundColor: "rgb(77, 176, 255)",
-                  "-webkit-text-align": "left",
-                  "text-align": "left",
-                  display: "flex",
-                  "border-radius": "5px",
-                }}
-              >
-                <span
-                  style={{
-                    padding: "7px",
-                    display: "inline-block",
-                    "border-right": "1px solid #746dba",
-                  }}
-                >
-                  <a
-                    href="http://visitorshitcounter.com"
-                    rel="nofollow noopener noreferrer"
-                    target="_blank"
-                    title="https://visitorshitcounter.com/"
-                  >
-                    <img
-                      src="https://visitorshitcounter.com/img/s-logo.svg"
-                      alt="https://visitorshitcounter.com/"
-                      style={{ width: "100%", border: "none", float: "left" }}
-                    />
-                  </a>
-                </span>
-                <span
-                  className="text"
-                  id="dupli_hit_counter"
-                  style={{
-                    padding: "10px 0 0 0",
-                    display: "inline-block",
-                    color: "rgb(0, 0, 0)",
-                    width: "100%",
-                    "-webkit-text-align": "center",
-                    "text-align": "center",
-                  }}
-                />
-                <input
-                  type="hidden"
-                  id="site_val"
-                  defaultValue="https://visitorshitcounter.com/counterDisplay?code=b19130d964e91884fc23cb365aa60f35&style=0017&pad=5&type=page&initCount=1"
-                />
-              </div>
-            </div>
-            {/* Badge Code End Here */}
-          </p>
         </div>
       </div>
     </div>

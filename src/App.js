@@ -23,16 +23,12 @@ import {
 import { Guidelines } from "views/section/guidelines-section";
 import { AboutPage } from "views/pages/about-page";
 import ScrollToTop from "views/pages/scroll-to-top";
-import useSound from "use-sound";
-import backgroundMusic from "../src/songs/bensound-tenderness.mp3";
 // import { SocialSection } from "views/section/social-section";
 
 // const GallerySection = React.lazy(() => import("views/section/gallery-section.jsx"));
 function App() {
-  const [play] = useSound(backgroundMusic, { volume: 0.7 });
-  useEffect(() => {
-    play();
-  }, []);
+
+  
   return (
     <>
       <div className="site-wrap">

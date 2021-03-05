@@ -3,12 +3,39 @@
 
 .bubblegum-font
     font-family: Bubblegum Sans
+    font-weight: 900
 .masthead
     background-image: url("../../../images/artistic-sunset.jpg")
     background-size: cover
     background-repeat: no-repeat
     background-attachment: fixed
     background-position: center
+    animation: backgroundChanging 50s alternate infinite
+
+@keyframes backgroundChanging
+    0%
+        background-image: url("../../../images/artistic-sunset.jpg")  
+    10%
+        background-image: url("../../../images/artistic-sunset-1.jpg")
+    20%
+        background-image: url("../../../images/artistic-sunset-2.jpg")  
+    30%
+        background-image: url("../../../images/artistic-sunset-3.jpg")  
+    40%
+        background-image: url("../../../images/artistic-sunset-4.jpg")  
+    50%
+        background-image: url("../../../images/artistic-sunset-5.jpg")  
+    60%
+        background-image: url("../../../images/artistic-sunset-6.jpg")  
+    70%
+        background-image: url("../../../images/artistic-sunset-7.jpg")  
+    80%
+        background-image: url("../../../images/artistic-sunset-8.jpg")  
+    90%
+        background-image: url("../../../images/artistic-sunset-9.jpg")  
+    100%
+        background-image: url("../../../images/artistic-sunset-10.jpg")  
+    
 .brand-heading
     font-family: Aladin, cursive
     font-size: 450%
@@ -18,8 +45,8 @@
     color: white
     font-size: 150%
 .intro-container
-    background: #ffffff41
-    box-shadow: 2px 2px 10px 20px #aca8a841
+    background: #2e0e0e41
+    box-shadow: 6px 4px 20px 2px #aca8a841;
     padding: 50px 0px
 @keyframes jumpingText
     0%

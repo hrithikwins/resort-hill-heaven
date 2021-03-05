@@ -971,72 +971,6 @@ h6 {
     width: 100%;
 }
 
-@media (min-width: 992px) {
-
-    .site-block-half .image,
-    .site-block-half .text {
-        width: 50%;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .site-block-half .image {
-        margin-bottom: 50px;
-    }
-}
-
-.site-block-half .text {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-@media (min-width: 992px) {
-    .site-block-half .text {
-        padding: 4rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .site-block-half .text {
-        padding: 8rem;
-    }
-}
-
-.site-block-half .bg-image {
-    background-position: center center;
-}
-
-@media (max-width: 991.98px) {
-    .site-block-half .bg-image {
-        height: 400px;
-    }
-}
-
-.site-block-half.site-block-video .image {
-    position: relative;
-}
-
-.site-block-half.site-block-video .image .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    width: 70px;
-    height: 70px;
-    /* background-image: url('images/cursor.png'); */
-    display: block;
-    border-radius: 50%;
-    opacity: 1;
-    color: #ff5733 !important;
-}
-
-.site-block-half.site-block-video .image .play-button:hover {
-    opacity: 1;
-}
-
 .site-block-half.site-block-video .image .play-button > span {
     position: absolute;
     left: 55%;
@@ -1046,37 +980,10 @@ h6 {
     transform: translate(-60%, -50%);
 }
 
-#date-countdown .countdown-block {
-    color: rgba(255, 255, 255, 0.4);
-}
-
-#date-countdown .label {
-    font-size: 40px;
-    color: #fff;
-}
-
-.next-match .image {
-    width: 50px;
-    border-radius: 50%;
-}
-
-.player {
-    position: relative;
-}
-
 .player img {
     max-width: 100px;
     border-radius: 50%;
     margin-bottom: 20px;
-}
-
-.player .team-number {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: #ff5733;
-    border-radius: 50%;
-    color: #fff;
 }
 
 .player .team-number > span {
@@ -1091,12 +998,6 @@ h6 {
 .player h2 {
     font-size: 20px;
     letter-spacing: .2em;
-    text-transform: uppercase;
-}
-
-.player .position {
-    font-size: 14px;
-    color: #b3b3b3;
     text-transform: uppercase;
 }
 
@@ -1128,21 +1029,6 @@ h6 {
     color: #fff;
     border: 1px solid transparent;
 }
-
-.img-border {
-    position: relative;
-}
-
-.img-border:before {
-    position: absolute;
-    content: "";
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    border: 7px solid #ff5733;
-}
-
 .sub-title {
     display: block;
     text-transform: uppercase;
@@ -1172,25 +1058,12 @@ h6 {
     color: #ff5733;
 }
 
-@media (max-width: 991.98px) {
-    .about-section .img-years .caption {
-        letter-spacing: .3em;
-    }
-}
-
 .about-section .img-years .years {
     line-height: 1.2;
     font-weight: 900;
     font-size: 100px;
     color: #ff5733;
 }
-
-@media (max-width: 991.98px) {
-    .about-section .img-years .years {
-        font-size: 80px;
-    }
-}
-
 .about-section h3 {
     font-size: 30px;
     font-weight: bold;
@@ -1213,33 +1086,6 @@ h6 {
     left: -15px;
     top: -5px;
     z-index: -1;
-}
-
-.site-half {
-    position: relative;
-}
-
-.site-half .img-bg-1 {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: -10%;
-}
-
-@media (max-width: 991.98px) {
-    .site-half .img-bg-1 {
-        position: relative;
-        height: 500px;
-        left: 0;
-        width: 100%;
-    }
-}
-
-.site-half .img-bg-1.right {
-    right: 0;
 }
 
 .ul-check li {
@@ -1478,9 +1324,6 @@ h6 {
     background: #ff5733;
 }
 
-.person {
-    position: relative;
-}
 
 .person figure {
     position: relative;
@@ -1525,22 +1368,6 @@ h6 {
     transform: scale(1);
 }
 
-.person .bio-img .social {
-    z-index: 2;
-    padding: 10px 0;
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    -webkit-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
-    left: 0;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-    background: #ff5733;
-}
-
 .person .bio-img .social a {
     display: inline-block;
     padding: 5px;
@@ -1551,13 +1378,6 @@ h6 {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-}
-
-.person:hover .social {
-    bottom: 0;
-    -webkit-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    transform: translateY(0%);
 }
 
 .person:hover figure:before {
@@ -1606,13 +1426,6 @@ h6 {
     transform: scale(1.05);
 }
 
-.testimony {
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    padding: 30px;
-}
-
 .testimony img {
     max-width: 100px;
     border-radius: 50%;
@@ -1640,16 +1453,6 @@ h6 {
     font-size: 1.2rem;
 }
 
-.site-block-testimony.active {
-    background: #fff;
-    -webkit-box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.1);
-}
-
-.block-12 {
-    position: relative;
-}
-
 .block-12 figure {
     position: relative;
 }
@@ -1669,66 +1472,8 @@ h6 {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
-.block-12 .text-overlay {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    z-index: 10;
-}
-
 .block-12 .text-overlay h2 {
     color: #fff;
-}
-
-.block-12 .text {
-    position: relative;
-    top: -100px;
-}
-
-.block-12 .text .meta {
-    text-transform: uppercase;
-    padding-left: 40px;
-    color: #fff;
-    display: block;
-    margin-bottom: 20px;
-}
-
-.block-12 .text .text-inner {
-    -webkit-box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.3);
-    background: #fff;
-    padding: 10px;
-    margin-right: 30px;
-    position: relative;
-}
-
-@media (min-width: 576px) {
-    .block-12 .text .text-inner {
-        padding: 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .block-12 .text .text-inner {
-        padding: 30px 40px;
-    }
-}
-
-.block-12 .text .text-inner:before {
-    position: absolute;
-    content: "";
-    width: 80px;
-    height: 4px;
-    margin-top: -4px;
-    background: #ff5733;
-    top: 0;
-}
-
-.block-12 .text .text-inner .heading {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
 }
 
 .block-16 figure {

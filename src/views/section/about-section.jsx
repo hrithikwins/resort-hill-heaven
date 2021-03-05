@@ -11,9 +11,9 @@ const images = [garden, garden1, nightmode];
 
 export const AboutSection = () => (
   <div className="site-section about-section" id="about-section">
-    <div className="container">
-      <div className="row align-items-center mb-5 pb-5">
-        <div className="col-lg-7 img-years mb-5 mb-lg-0 slide-container">
+    <div className="container-fluid p-4">
+      <div className="row ml-md-4  p-md-4 align-items-center mb-5 pb-5">
+        <div className="col-lg-6 img-years mb-5 mb-lg-0 slide-container">
           <Slide scale={0.4}>
             {images.map((each, index) => (
               <div className="slide-image">
@@ -27,14 +27,14 @@ export const AboutSection = () => (
             ))}
           </Slide>
         </div>
-        <div className="col-lg-4 ml-auto">
+        <div className="col-lg-5 ml-auto">
           <span className="sub-title">Learn To Know More</span>
           <h3 className="mb-4">About Heaven Hill Resort</h3>
           <p className="mb-4">
             <span role="img" aria-label="hotel">
               🏨
             </span>
-            Heaven Hill Resort is an Agrotourism based resort in Boisar/Palghar
+            Heaven Hill Resort is an Agrotourism based <br/>resort in Boisar/Palghar
             District.
           </p>
           <ul className="list-unstyled  text-left success mb-5">
@@ -77,7 +77,7 @@ export const AboutSection = () => (
           <p>
             <Link
               to="/about-page#about-page"
-              className="btn btn-primary btn-lg rounded-0"
+              className="glass-blue-btn text-white"
             >
               Read More About Us
             </Link>

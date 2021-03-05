@@ -9,7 +9,7 @@ export const PricingChartSection = () => (
             <span className="text-orangered pricing-deco m-4">
               Pricing Chart
             </span>
-            <h2 className="font-weight-bold mb-5 p-2">Tarrif Plans</h2>
+            <h2 className="font-weight-bold mb-5 p-2">Tariff Plans</h2>
           </div>
         </div>
       </div>

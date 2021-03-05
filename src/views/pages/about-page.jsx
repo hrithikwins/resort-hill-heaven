@@ -21,11 +21,12 @@ export const AboutPage = () => (
               <br />
               <br />
               <div className="d-block">
-                <span className="">
+                <span className="p-4">
                   <img
                     src={AboutPageImage}
                     alt="heaven hill about"
                     align="left"
+                    className="about-page-image"
                   />
                   <p>
                     Heaven Hill Resort is a paradise on the Earth, amongst the

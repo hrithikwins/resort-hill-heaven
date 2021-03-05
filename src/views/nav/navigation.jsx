@@ -34,16 +34,16 @@ export const Navigation = () => {
                         </div>
                     </div>
                 </div>
-                <div><a href="/home/#home-section" className="menu-items" onClick={() => closeMenu()}><FaHome />&nbsp; Home</a></div><hr />
-                <div><a href="/home/#about-section" className="menu-items" onClick={() => closeMenu()}><FaInfo />&nbsp; About</a></div> <hr />
-                <div><a href="gallery" className="menu-items" onClick={() => closeMenu()}><FaPhotoVideo />&nbsp; Gallery</a></div> <hr />
+                <div><a href="/home" className="menu-items" onClick={() => closeMenu()}><FaHome />&nbsp; Home</a></div><hr />
+                <div><a href="/about-page" className="menu-items" onClick={() => closeMenu()}><FaInfo />&nbsp; About</a></div> <hr />
+                <div><a href="/gallery" className="menu-items" onClick={() => closeMenu()}><FaPhotoVideo />&nbsp; Gallery</a></div> <hr />
                 <div><a href="/home/#pricing-chart-section" className="menu-items" onClick={() => closeMenu()}><FaMoneyCheckAlt />&nbsp; Tariff</a></div> <hr />
                 <div><a href="/home/#faq-section" className="menu-items" onClick={() => closeMenu()}><FaQuestion />&nbsp; FAQs</a></div> <hr />
                 <div><a href="/home/#contact-section" className="menu-items" onClick={() => closeMenu()}><FaLocationArrow />&nbsp; Contact</a></div>
             </ul>
             <div className="site-navbar-wrap">
                 <div className="site-navbar-top">
-                    <div className="container py-3">
+                    <div className="container-fluid p-4">
                         <div className="row align-items-center">
                             <div className="col-6">
                                 <a href="https://www.twitter.com/" className="p-2 pl-0"><FaTwitter /></a>
@@ -73,8 +73,8 @@ export const Navigation = () => {
                     </div>
                 </div>
 
-                <div className="site-navbar site-navbar-target js-sticky-header">
-                    <div className="container">
+                <div className="site-navbar site-navbar-target ">
+                    <div className="container-fluid">
                         <div className="row align-items-center">
                             <div className="col-2">
                                 <h1 className="my-0 site-logo"><a href="index.html">
@@ -85,7 +85,7 @@ export const Navigation = () => {
                             </div>
                             <div className="col-10">
                                 <nav className="site-navigation text-right" role="navigation">
-                                    <div className="container">
+                                    <div className="container-fluid">
                                         <div className="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
                                             <div className="site-menu-toggle js-menu-toggle text-white">
                                                 <span className="icon-menu h3"
@@ -97,10 +97,10 @@ export const Navigation = () => {
                                         </div>
                                         <ul className="site-menu main-menu js-clone-nav d-none d-lg-block">
                                             <li>
-                                                <a href="/home/#home-section" className="nav-link">Home</a>
+                                                <a href="/home" className="nav-link">Home</a>
                                             </li>
                                             <li>
-                                                <a href="/home#about-section" className="nav-link">About</a>
+                                                <a href="/about-page" className="nav-link">About</a>
                                             </li>
                                             <li>
                                                 <a href="/gallery" className="nav-link">Gallery</a>
