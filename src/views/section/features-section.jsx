@@ -16,6 +16,8 @@ export const FeaturesSection = () => (
             Experience at Heaven hill Resort
           </h2>
           <p className="mb-5">
+
+              
             Some experiences are worth experiencing, we at Heaven Hill Resort
             aim at providing our visitors the best treatment we can ever give. A
             feel as comfortable and friendly like home.
